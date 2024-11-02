@@ -594,7 +594,12 @@ background-color: transparent;
 .table-container {
     position: relative;
 }
-
+.table-cell-text{
+    font-family: Work Sans;
+        font-size: 14px;
+        font-weight: 400;
+        color: #545F7D;
+}
 .filter-popup {
     position: absolute;
     top: 50px;

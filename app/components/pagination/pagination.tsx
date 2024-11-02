@@ -1,5 +1,5 @@
 import Style from "./pagination.module.scss";
-import React from "react";
+import React, { ChangeEventHandler } from "react";
 import Image from "next/image";
 interface PaginationProps {
   totalResults: number;
@@ -7,6 +7,9 @@ interface PaginationProps {
   onPageChange: (page: number) => void;
   maxVisiblePages: number;
   currentPage?: number;
+  handleRowsPerPageChange: any;
+  rowsPerPage: number;
+  rowsPerPageOptions: number[];
 }
 
 const Pagination: React.FC<PaginationProps> = ({
@@ -15,10 +18,13 @@ const Pagination: React.FC<PaginationProps> = ({
   onPageChange,
   maxVisiblePages,
   currentPage = 1,
+  rowsPerPage,
+  handleRowsPerPageChange,
+  rowsPerPageOptions,
 }) => {
-  const totalPages = Math.ceil(totalResults / resultsPerPage);
-  const startResult = (currentPage - 1) * resultsPerPage + 1;
-  const endResult = Math.min(currentPage * resultsPerPage, totalResults);
+  const totalPages = Math.ceil(totalResults / rowsPerPage);
+  const startResult = (currentPage - 1) * rowsPerPage + 1;
+  const endResult = Math.min(currentPage * rowsPerPage, totalResults);
 
   const getPageNumbers = () => {
     const pageNumbers: (number | null)[] = [];
@@ -56,10 +62,22 @@ const Pagination: React.FC<PaginationProps> = ({
 
   return (
     <div className={Style.pagination_container}>
-      <div>
-        <p>
-          Showing {startResult}-{endResult} of {totalResults} results
-        </p>
+      <div className="row-container  align-center gap-large">
+        <p>Showing</p>
+        <label>
+          <select
+            value={rowsPerPage}
+            onChange={handleRowsPerPageChange}
+            className={Style.rows_per_page_select}
+          >
+            {rowsPerPageOptions?.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        </label>
+        <p>{totalResults}</p>
       </div>
       <div className={Style.pagination_btn_wrapper}>
         <button
