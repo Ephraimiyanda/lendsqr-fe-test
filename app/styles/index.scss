@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #0000000A;
+    --foreground: #ffffff;
+}
+
+body {
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+$primary-color: #39CDCC;
+$form-max-width: 447px;
+$blue-text: #213F7D;
+$grey-text: #545F7D;
+$side-bar-text: #213F7D;
+$light-blue: #213F7D1A;
+$fade-out: #0000000A;
+//radius sizes
+$radius-sizes: (
+    x-small: 4px,
+    small:5px,
+    medium: 8px,
+    normal:10px,
+    large: 16px,
+    x-large: 24px,
+    xx-large: 48px
+);
+
+//gap sizes
+$gap-sizes: (
+    x-small: 4px,
+    small:5px,
+    medium: 8px,
+    normal:10px,
+    large: 16px,
+    x-large: 24px,
+    xx-large: 32px,
+    xxl: 40px,
+);
+
+//set radius size
+@function radius($size) {
+    @return map-get($radius-sizes, $size);
+}
+
+//set gap size
+@mixin gap($size) {
+    gap: map-get($gap-sizes, $size);
+}
+
+//radius classes for sizes
+.gap-small {
+    @include gap(small);
+}
+
+.gap-medium {
+    @include gap(medium);
+}
+
+.gap-normal {
+    @include gap(normal);
+}
+
+.gap-large {
+    @include gap(large);
+}
+
+.gap-x-large {
+    @include gap(x-large);
+}
+
+.gap-xx-large {
+    @include gap(xx-large);
+}
+
+.gap-xxl {
+    @include gap(xxl);
+}
+
+
+//universal styles
+.column-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.screen-container {
+    height: 100svh;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.center-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.center-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.shadow {
+    box-shadow: 0 5px 20px 0 #0000000A;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+        transition: opacity 0.3s ease;
+    }
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.flex-half {
+    flex: 0.5;
+}
+
+.blue-text {
+    color: #213F7D;
+}
+
+.grey-text {
+    color: $grey-text;
+}
+
+.page-section {
+    gap: 20px;
+    padding: 20px;
+    max-width: 1037px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+//link style
+.underline-link {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}

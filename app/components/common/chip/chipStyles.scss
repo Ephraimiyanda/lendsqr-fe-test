@@ -1,0 +1,41 @@
+@import "../../../styles/colors/colors";
+//chip styles
+.chip {
+    width: fit-content;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+
+    p::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+.chip.inactive {
+    color: $grey-text;
+    background: rgba($grey-text, 6%);
+}
+
+.chip.pending {
+    color: #E9B200;
+    background: rgba(#E9B200, 6%);
+}
+
+.chip.active {
+    color: #39CD62;
+    background: rgba(#39CD62, 6%);
+
+}
+
+.chip.blacklisted {
+    color: #E4033B;
+    background: rgba(#E4033B, 6%);
+
+}

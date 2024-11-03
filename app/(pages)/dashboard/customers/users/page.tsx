@@ -1,8 +1,8 @@
 "use client";
 import Card from "@/app/components/cards/card";
 import { CardWrapper } from "@/app/components/cards/cardWrapper";
-import { Chip } from "@/app/components/common/chip";
-import { PageHeader } from "@/app/components/headers/pageHeader";
+import { Chip } from "@/app/components/common/chip/chip";
+import { PageHeader } from "@/app/components/headers/pageHeader/pageHeader";
 import DashTable from "@/app/components/table/table";
 import { user } from "@/app/types/userTypes";
 import { useEffect, useState } from "react";

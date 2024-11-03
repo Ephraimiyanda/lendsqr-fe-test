@@ -1,0 +1,119 @@
+@import "../../../styles/colors/colors";
+//sidebar style
+.sidebar {
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 20px 0 #0000000A;
+    width: 283px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar>.navbar-end-item {
+    display: none;
+}
+
+.sidebar-select-container {
+    padding-left: 25px;
+}
+
+.sidebar-select {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    height: 25px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    color: #213F7D;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 12px;
+
+    option {
+        position: relative;
+        height: 25px;
+        border-radius: 8px;
+    }
+}
+
+.sidebar>.navbar-searchbar {
+
+    display: none;
+}
+
+.sidebar>.navbar-searchbar>input {
+    height: 40px;
+}
+
+.sidebar-section {
+    .header {
+        font-weight: 500;
+        font-size: 12px;
+        padding-left: 25px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        color: $grey-text;
+    }
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebar-item {
+    position: relative;
+    border-left-width: 3px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 25px;
+    color: $side-bar-text;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+
+    img,
+    p {
+        opacity: 0.6;
+    }
+
+    &:hover {
+        background-color: rgba($primary-color, 0.06);
+        border-left-color: $primary-color;
+
+        img,
+        p {
+            opacity: 1
+        }
+    }
+
+
+}
+
+
+.sidebar-item.active {
+    background-color: rgba($primary-color, 0.06);
+    /* Light background with low opacity */
+    border-left-color: $primary-color;
+
+    img,
+    p {
+        opacity: 1
+            /* Full opacity on hover */
+    }
+}
+
+.sidebar-item-image {
+    width: 16px;
+    height: 16px;
+    object-fit: scale-down;
+}

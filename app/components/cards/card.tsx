@@ -1,3 +1,4 @@
+import "../cards/cardStyles.scss";
 import Image from "next/image";
 interface card {
   title: string;

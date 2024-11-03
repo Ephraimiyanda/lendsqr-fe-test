@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
-import { Logo } from "../common/logo";
+import { Logo } from "../../common/logo/logo";
 import Image from "next/image";
 import { useState } from "react";
-import { Sidebar } from "./sideBar";
+import { Sidebar } from "../sidebar/sideBar";
+import "../navbar/navbarStyles.scss";
 export function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 

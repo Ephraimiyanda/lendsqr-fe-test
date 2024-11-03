@@ -1,6 +1,7 @@
 import { sideBarMenu } from "@/app/assets/constants/sidebarMenuData";
 import { SidebarItem } from "./sideBarItem";
 import { usePathname } from "next/navigation";
+import "../sidebar/sidebarStyles.scss";
 import Image from "next/image";
 export function Sidebar() {
   return (

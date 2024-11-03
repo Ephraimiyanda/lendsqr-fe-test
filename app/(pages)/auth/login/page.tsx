@@ -1,7 +1,7 @@
 import Link from "next/link";
-
+import "../../../styles/loginPageStyles/style.scss";
 import Image from "next/image";
-import { Logo } from "@/app/components/common/logo";
+import { Logo } from "@/app/components/common/logo/logo";
 import signInMan from "../../../../public/images/sign-in-man.svg";
 export default function Page() {
   return (

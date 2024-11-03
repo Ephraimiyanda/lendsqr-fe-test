@@ -1,3 +1,4 @@
+import "../chip/chipStyles.scss";
 export function Chip({ status }: { status: string }) {
   return (
     <div className={`chip ${status}`}>

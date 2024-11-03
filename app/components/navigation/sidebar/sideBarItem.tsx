@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { sidebarItems } from "@/app/types/sideBarTypes";
 import { usePathname } from "next/navigation";
-export function SidebarItem({ name, href, icon, endContent }: sidebarItems) {
+export function SidebarItem({ name, href, icon }: sidebarItems) {
   const pathname = usePathname();
   return (
     <Link
@@ -20,14 +20,6 @@ export function SidebarItem({ name, href, icon, endContent }: sidebarItems) {
       ></Image>
 
       <p>{name}</p>
-      {endContent && (
-        <Image
-          src={endContent}
-          alt={name + " " + "icon"}
-          width={16}
-          height={16}
-        ></Image>
-      )}
     </Link>
   );
 }

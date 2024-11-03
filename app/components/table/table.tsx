@@ -8,9 +8,10 @@ import {
 } from "react";
 import Image from "next/image";
 import { user } from "@/app/types/userTypes";
-import { Chip } from "../common/chip";
+import { Chip } from "../common/chip/chip";
 import Pagination from "../pagination/pagination";
-
+import Link from "next/link";
+import "../table/tableStyles.scss";
 interface ITableProp {
   data?: user[];
   loading: boolean;
@@ -134,7 +135,16 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
         case "ORGANISATION":
           return <p className="table-cell-text">{item.organisation}</p>;
         case "USERNAME":
-          return <p className="table-cell-text">{item.userName}</p>;
+          return (
+            <p className="table-cell-text">
+              <Link
+                className="table-cell-text"
+                href={`/dashboard/customers/users/${item._id}`}
+              >
+                {item.userName}
+              </Link>
+            </p>
+          );
         case "EMAIL":
           return <p className="table-cell-text">{item.email}</p>;
         case "PHONE NUMBER":
@@ -166,8 +176,11 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                   className="dialog-overlay shadow"
                   onClick={handleCloseDialog}
                 >
-                  <div className="dialog-content">
-                    <button onClick={(e) => e.stopPropagation()}>
+                  <div
+                    className="dialog-content"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button>
                       <Image
                         src="/images/icons/eye.svg"
                         alt="vertical-dots"
@@ -176,7 +189,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                       />
                       <p>View Details</p>
                     </button>
-                    <button onClick={(e) => e.stopPropagation()}>
+                    <button>
                       <Image
                         src="/images/icons/delete-friend.svg"
                         alt="vertical-dots"
@@ -185,7 +198,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                       />
                       <p>Blacklist User</p>
                     </button>
-                    <button onClick={(e) => e.stopPropagation()}>
+                    <button>
                       <Image
                         src="/images/icons/user-tick.svg"
                         alt="vertical-dots"

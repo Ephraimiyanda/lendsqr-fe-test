@@ -1,4 +1,4 @@
-import Style from "./pagination.module.scss";
+import "./paginationStyles.scss";
 import React, { ChangeEventHandler, useCallback } from "react";
 import Image from "next/image";
 interface PaginationProps {
@@ -101,7 +101,7 @@ const Pagination: React.FC<PaginationProps> = ({
   };
 
   return (
-    <div className={"pagination-container"}>
+    <div className={"pagination  container"}>
       <div className="flex-display gap-medium justify-center align-center align-center gap-large grey-text">
         <p>Showing</p>
         <label>
@@ -121,7 +121,7 @@ const Pagination: React.FC<PaginationProps> = ({
         </label>
         <p>100</p>
       </div>
-      <div className={Style.pagination_btn_wrapper}>
+      <div className={"btn_wrapper"}>
         <button
           className={`page-button one ${currentPage === 1 && "fade"}`}
           onClick={() => handlePageChange(currentPage - 1)}

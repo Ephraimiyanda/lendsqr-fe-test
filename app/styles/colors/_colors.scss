@@ -1,0 +1,16 @@
+// _colors.scss
+$primary-color: #39CDCC;
+$blue-text: #213F7D;
+$grey-text: #545F7D;
+$side-bar-text: #213F7D;
+$light-blue: #213F7D1A;
+$fade-out: #0000000A;
+
+:export {
+    primaryColor: $primary-color;
+    blueText: $blue-text;
+    greyText: $grey-text;
+    sideBarText: $side-bar-text;
+    lightBlue: $light-blue;
+    fadeOut: $fade-out;
+}

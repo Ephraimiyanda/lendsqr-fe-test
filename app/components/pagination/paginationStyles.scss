@@ -1,0 +1,114 @@
+@import "../../styles/colors/colors";
+
+
+  .container {
+    @apply rounded-b-[10px];
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media (max-width: 550px) {
+      flex-direction: column;
+      gap:10px
+    }
+  }
+  
+
+.btn_wrapper {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    @media (max-width: 400px) {
+      gap: 1.5rem;
+      width: fit-content;
+    }
+  }
+
+.btn_prev,
+.btn_nxt {
+  @apply hover:text-black disabled:text-gray-400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_paginate {
+  height: 2.5rem;
+  width: 2.5rem !important;
+  padding: 0;
+
+  &:hover {
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+}
+
+
+//pagination select
+.pagination-select {
+  width: 80px;
+  height: 30px;
+  background: #213F7D1A;
+  color: $blue-text;
+  gap: 0px;
+  border-radius: 4px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+  gap: 8px;
+}
+
+.page-button {
+  width: 24px;
+  height: 24px;
+  border-radius: radius(small);
+  border: 0;
+  background-color: #213F7D1A;
+}
+
+.page-button.fade {
+  opacity: 0.6;
+}
+
+.page-button.one>img {
+  rotate: -180deg;
+}
+
+.pagination-number-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: 0;
+  opacity: 60%;
+  color: $grey-text;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-number-button.active {
+  opacity: 1;
+}
+//pagination media query
+@media(max-width:840px) {
+  .pagination-container {
+    justify-content: center;
+  }
+}
