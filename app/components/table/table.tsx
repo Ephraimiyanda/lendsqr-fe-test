@@ -166,11 +166,8 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                   className="dialog-overlay shadow"
                   onClick={handleCloseDialog}
                 >
-                  <div
-                    className="dialog-content"
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    <button>
+                  <div className="dialog-content">
+                    <button onClick={(e) => e.stopPropagation()}>
                       <Image
                         src="/images/icons/eye.svg"
                         alt="vertical-dots"
@@ -179,7 +176,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                       />
                       <p>View Details</p>
                     </button>
-                    <button>
+                    <button onClick={(e) => e.stopPropagation()}>
                       <Image
                         src="/images/icons/delete-friend.svg"
                         alt="vertical-dots"
@@ -188,7 +185,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                       />
                       <p>Blacklist User</p>
                     </button>
-                    <button>
+                    <button onClick={(e) => e.stopPropagation()}>
                       <Image
                         src="/images/icons/user-tick.svg"
                         alt="vertical-dots"

@@ -5,6 +5,35 @@ import Image from "next/image";
 export function Sidebar() {
   return (
     <aside className=" column-container sidebar gap-x-large overflow-auto h-full ">
+      <div className="row-container navbar-end-item align-center gap-large">
+        <button className="navbar-button-group">
+          <Image
+            src={"/images/avatar.png"}
+            alt={"avatar"}
+            width={48}
+            height={48}
+            className="avatar"
+          ></Image>
+          <p>Adedeji</p>
+          <Image
+            src={"/images/icons/arrow-down-filled.svg"}
+            alt="arrow down"
+            width={20}
+            height={20}
+          ></Image>
+        </button>
+      </div>
+      <form action="" className="navbar-searchbar">
+        <input type="text" placeholder="Search for anything" />
+        <button type="submit">
+          <Image
+            src={"/images/icons/search.svg"}
+            alt={"search icon"}
+            width={14}
+            height={14}
+          ></Image>
+        </button>
+      </form>
       <div className="sidebar-select-container">
         <div className="row-container gap-small align-center ">
           <Image

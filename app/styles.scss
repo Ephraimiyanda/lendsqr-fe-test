@@ -16,11 +16,11 @@ body {
 
 $primary-color: #39CDCC;
 $form-max-width: 447px;
-$bold-text: #213F7D;
+$blue-text: #213F7D;
 $grey-text: #545F7D;
 $side-bar-text: #213F7D;
 $light-blue: #213F7D1A;
-$fade-out:#0000000A;
+$fade-out: #0000000A;
 //radius sizes
 $radius-sizes: (
     x-small: 4px,
@@ -275,7 +275,7 @@ button {
     h1 {
         font-weight: 700;
         font-size: 40px;
-        color: $bold-text;
+        color: $blue-text;
     }
 
     p {
@@ -296,8 +296,11 @@ button {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    
 }
-
+.sidebar>.navbar-end-item{
+    display: none;
+}
 .sidebar-select-container {
     padding-left: 25px;
 }
@@ -319,6 +322,15 @@ button {
         height: 25px;
         border-radius: radius(medium);
     }
+}
+
+.sidebar>.navbar-searchbar {
+
+    display: none;
+}
+
+.sidebar>.navbar-searchbar>input {
+    height: 40px;
 }
 
 .sidebar-section {
@@ -404,6 +416,7 @@ button {
     display: flex;
     justify-content: space-between;
     z-index: 50;
+    gap: 10px;
 }
 
 .navbar-searchbar {
@@ -436,7 +449,7 @@ button {
     input {
         border: 1px solid;
         border-right: 0;
-        border-color: rgba($bold-text, 0.5);
+        border-color: rgba($blue-text, 0.5);
         flex: 1;
         width: 100%;
         border-bottom-left-radius: radius(medium);
@@ -492,6 +505,9 @@ button {
     width: fit-content;
 }
 
+.nav-link {
+    color: $blue-text;
+}
 
 
 //user page styles
@@ -499,7 +515,7 @@ button {
     font-size: 24px;
     font-weight: 500;
     text-align: left;
-    color: $bold-text;
+    color: $blue-text;
 }
 
 .page-section {
@@ -799,7 +815,7 @@ button {
     width: 80px;
     height: 30px;
     background: #213F7D1A;
-    color: $bold-text;
+    color: $blue-text;
     gap: 0px;
     border-radius: 4px;
     border: 0;
@@ -867,9 +883,10 @@ button {
     display: flex;
     flex-direction: column;
     gap: 0;
-justify-content: center;
-align-items: center;
-height: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
     button {
         display: flex;
         justify-content: start;
@@ -883,13 +900,48 @@ height: 100%;
         padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 15px;
-        &:hover{
+
+        &:hover {
             background: $fade-out;
         }
     }
 
 }
 
+.menu {
+    transition: height 0.5s;
+    padding-left: 6px;
+    padding-right: 6px;
+    position: sticky;
+    z-index: 50;
+    width: 100%;
+
+
+}
+
+.menu.close {
+    height: 0;
+    overflow: hidden;
+}
+
+.menu.open {
+    height: 100%;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu-button>img {
+    width: 45px;
+    color: #213F7D;
+    fill: #213F7D;
+}
+
+
+//media queries for screen sizes
 @media (max-width:1020px) {
     .card-wrapper {
         flex-wrap: wrap;
@@ -908,6 +960,42 @@ height: 100%;
 }
 
 @media(max-width:740px) {
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sidebar {
+        display: none;
+        padding-top: 0;
+    }
+
+    .sidebar>.navbar-searchbar {
+        display: flex;
+        width: 100%;
+        max-width: none;
+    }
+
+    .menu>.sidebar {
+        width: 100%;
+        display: flex;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .menu>.navbar-searchbar {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .navbar-searchbar {
+        display: none;
+    }
+
     .login-section-container-1 {
         display: none;
     }
@@ -941,4 +1029,19 @@ height: 100%;
     }
 
 
+}
+
+@media (max-width:640px) {
+   
+.navbar{
+    .navbar-button-group {
+            display: none;
+        }
+}
+    .sidebar>.navbar-end-item {
+        display: flex;
+    }
+    .nav-content{
+        gap: 10px;
+    }
 }
