@@ -1,11 +1,9 @@
 import Style from "./pagination.module.scss";
-import React, { ChangeEventHandler } from "react";
+import React, { ChangeEventHandler, useCallback } from "react";
 import Image from "next/image";
 interface PaginationProps {
   totalResults: number;
-  resultsPerPage: number;
   onPageChange: (page: number) => void;
-  maxVisiblePages: number;
   currentPage?: number;
   handleRowsPerPageChange: any;
   rowsPerPage: number;
@@ -14,9 +12,7 @@ interface PaginationProps {
 
 const Pagination: React.FC<PaginationProps> = ({
   totalResults,
-  resultsPerPage,
   onPageChange,
-  maxVisiblePages,
   currentPage = 1,
   rowsPerPage,
   handleRowsPerPageChange,
@@ -26,49 +22,95 @@ const Pagination: React.FC<PaginationProps> = ({
   const startResult = (currentPage - 1) * rowsPerPage + 1;
   const endResult = Math.min(currentPage * rowsPerPage, totalResults);
 
-  const getPageNumbers = () => {
-    const pageNumbers: (number | null)[] = [];
-    const startPage = Math.max(
-      1,
-      currentPage - Math.floor(maxVisiblePages / 2)
-    );
-    const endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-
-    if (startPage > 1) {
-      pageNumbers.push(1);
-      if (startPage > 2) {
-        pageNumbers.push(null); // Add ellipsis if there are skipped pages before the startPage
-      }
+  const handlePageChange = (page: number) => {
+    if (page >= 1 && page <= totalPages) {
+      onPageChange(page);
     }
+  };
+
+  const renderPageNumbers = () => {
+    const pageNumbers = [];
+
+    // Always show the first page
+    pageNumbers.push(
+      <button
+        key={1}
+        className={`pagination-number-button ${
+          currentPage === 1 ? "active" : ""
+        }`}
+        onClick={() => handlePageChange(1)}
+      >
+        1
+      </button>
+    );
+
+    // Determine if we need ellipses for the beginning
+    if (currentPage > 3) {
+      pageNumbers.push(
+        <span key="start-ellipsis" className="pagination-number-button">
+          ...
+        </span>
+      );
+    }
+
+    // Show the current page and up to one page before and after it
+    const startPage = Math.max(2, currentPage - 1);
+    const endPage = Math.min(totalPages - 1, currentPage + 1);
 
     for (let i = startPage; i <= endPage; i++) {
-      pageNumbers.push(i);
+      if (i !== 1 && i !== totalPages) {
+        pageNumbers.push(
+          <button
+            key={i}
+            className={`pagination-number-button ${
+              currentPage === i ? "active" : ""
+            }`}
+            onClick={() => handlePageChange(i)}
+          >
+            {i}
+          </button>
+        );
+      }
     }
 
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) {
-        pageNumbers.push(null); // Add ellipsis if there are skipped pages after the endPage
-      }
-      pageNumbers.push(totalPages);
+    // Determine if we need ellipses for the end
+    if (currentPage < totalPages - 2) {
+      pageNumbers.push(
+        <span key="end-ellipsis" className="pagination-number-button">
+          ...
+        </span>
+      );
+    }
+
+    // Always show the last page if there's more than one page
+    if (totalPages > 1) {
+      pageNumbers.push(
+        <button
+          key={totalPages}
+          className={`pagination-number-button ${
+            currentPage === totalPages ? "active" : ""
+          }`}
+          onClick={() => handlePageChange(totalPages)}
+        >
+          {totalPages}
+        </button>
+      );
     }
 
     return pageNumbers;
   };
 
-  const handlePageClick = (page: number) => {
-    onPageChange(page);
-    onPageChange(page);
-  };
-
   return (
-    <div className={Style.pagination_container}>
-      <div className="row-container  align-center gap-large">
+    <div className={"pagination-container"}>
+      <div className="flex-display gap-medium justify-center align-center align-center gap-large grey-text">
         <p>Showing</p>
         <label>
           <select
             value={rowsPerPage}
-            onChange={handleRowsPerPageChange}
-            className={Style.rows_per_page_select}
+            onChange={(e) => {
+              handleRowsPerPageChange(e.target.value);
+            }}
+            className={"pagination-select"}
           >
             {rowsPerPageOptions?.map((option) => (
               <option key={option} value={option}>
@@ -77,37 +119,26 @@ const Pagination: React.FC<PaginationProps> = ({
             ))}
           </select>
         </label>
-        <p>{totalResults}</p>
+        <p>100</p>
       </div>
       <div className={Style.pagination_btn_wrapper}>
         <button
-          className={Style.btn_prev}
-          onClick={() => handlePageClick(currentPage - 1)}
+          className={`page-button one ${currentPage === 1 && "fade"}`}
+          onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
         >
           <Image
-            src={"/images/icons/arrow-left.svg"}
+            src={"/images/icons/arrow-right.svg"}
             alt="arrow-left"
             width={14}
             height={14}
           ></Image>
         </button>
-        {getPageNumbers().map((pageNumber, index) => (
-          <button
-            key={index}
-            className={
-              pageNumber === currentPage ? Style.active : Style.btn_paginate
-            }
-            onClick={() => handlePageClick(pageNumber as number)}
-            disabled={pageNumber === null}
-          >
-            {pageNumber === null ? "..." : pageNumber}
-          </button>
-        ))}
+        {renderPageNumbers()}
         <button
-          className={Style.btn_nxt}
-          onClick={() => handlePageClick(currentPage + 1)}
-          disabled={currentPage === totalPages || totalPages === 0}
+          className={`page-button ${currentPage === totalPages && "fade"}`}
+          onClick={() => handlePageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
         >
           <Image
             src={"/images/icons/arrow-right.svg"}
