@@ -164,7 +164,9 @@ export default function UserDetails({
             {socials?.map((social, index) => (
               <div key={index}>
                 <strong>{social.name}</strong>
-                <p>{social.link}</p>
+                <Link href={"#"}>
+                  <p>{social.link}</p>
+                </Link>
               </div>
             ))}
           </div>

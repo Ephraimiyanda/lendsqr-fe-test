@@ -5,13 +5,14 @@ import { sidebarItems } from "@/app/types/sideBarTypes";
 import { usePathname } from "next/navigation";
 export function SidebarItem({ name, href, icon }: sidebarItems) {
   const pathname = usePathname();
+
+  const isActive = (href: string) => {
+    // Check if the pathname starts with the href or if the pathname equals the href
+    return pathname === href || pathname?.startsWith(href + "/");
+  };
+
   return (
-    <Link
-      href={href}
-      className={`sidebar-item ${
-        pathname && pathname?.startsWith(href) && "active"
-      }`}
-    >
+    <Link href={href} className={`sidebar-item ${isActive(href) && "active"}`}>
       <Image
         src={icon}
         alt={name + " " + "icon"}

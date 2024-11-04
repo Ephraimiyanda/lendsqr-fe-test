@@ -1,4 +1,5 @@
 @import "../../../styles/colors/colors";
+
 //sidebar style
 .sidebar {
     background-color: #FFFFFF;
@@ -116,4 +117,32 @@
     width: 16px;
     height: 16px;
     object-fit: scale-down;
+}
+
+.logout-container {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom:10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba( #213F7D, 0.1);
+    gap: 10px;
+}
+
+.logout-button {
+    @apply sidebar-item;
+    img,
+    p {
+        opacity: 1;
+    }
+    border: 0;
+}
+
+.version-text {
+    color: $side-bar-text;
+    padding-left: 25px;
+    font-size: 12px;
+    font-weight: 400;
 }

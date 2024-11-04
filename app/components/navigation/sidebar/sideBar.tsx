@@ -74,6 +74,19 @@ export function Sidebar() {
           ))}
         </div>
       ))}
+      <div className="logout-container">
+        <button className="logout-button">
+          <Image
+            src={"/images/icons/log-out.svg"}
+            alt={"logout"}
+            width={16}
+            height={16}
+          />
+          <p>Logout</p>
+        </button>
+
+        <p className="version-text">v1.2.0</p>
+      </div>
     </aside>
   );
 }

@@ -57,6 +57,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
   const date = (timestamp: string) => {
     return new Date(timestamp);
   };
+
   //date options
   const options = {
     year: "numeric",
@@ -64,7 +65,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
     day: "numeric",
     hour: "2-digit",
     minute: "2-digit",
-    hour12: false,
+    hour12: true,
     timeZone: "UTC", // Set timezone to UTC
   };
 
