@@ -1,3 +1,4 @@
+import "../cards/cardStyles.scss";
 import { ReactNode } from "react";
 
 export function CardWrapper({ children }: { children: ReactNode }) {

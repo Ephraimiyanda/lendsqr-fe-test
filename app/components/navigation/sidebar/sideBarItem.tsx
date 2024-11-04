@@ -8,7 +8,9 @@ export function SidebarItem({ name, href, icon }: sidebarItems) {
   return (
     <Link
       href={href}
-      className={`sidebar-item ${pathname === href && "active"}`}
+      className={`sidebar-item ${
+        pathname && pathname?.startsWith(href) && "active"
+      }`}
     >
       <Image
         src={icon}

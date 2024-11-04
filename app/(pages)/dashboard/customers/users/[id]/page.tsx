@@ -5,7 +5,16 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import SlidingTabs from "@/app/components/tabs/tabs";
 import "../../../../../styles/userPageStyles/style.scss";
-export default function UserDetails({ params }: { params: { id: string } }) {
+import { use, useEffect, useState } from "react";
+import type { UserDetails, user } from "@/app/types/userTypes";
+import UserTierStars from "@/app/components/common/tierStars/stars";
+export default function UserDetails({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const [userData, setUserData] = useState<user>();
+  const [isLoading, setIsLoading] = useState(true);
   const tabs = [
     "General Details",
     "Documents",
@@ -15,8 +24,66 @@ export default function UserDetails({ params }: { params: { id: string } }) {
     "App and System",
   ];
   const router = useRouter();
+  const id = use(params).id;
+  const savedUserDetails = localStorage.getItem(`user-${id}`);
 
-  const UserProfile = () => {
+  //fetchuser data
+  async function fetchUserDetails() {
+    try {
+      const data = await fetch(`/api/userDetails?id=${id}`);
+      const resData = await data.json();
+      if (resData) {
+        setUserData(resData.data);
+        localStorage.setItem(`user-${id}`, JSON.stringify(resData.data));
+        setIsLoading(false);
+      }
+    } catch (error) {
+      throw new Error("An error has occured :" + error);
+    }
+  }
+  useEffect(() => {
+    if (savedUserDetails) {
+      setUserData(JSON.parse(savedUserDetails));
+      setIsLoading(false);
+    } else {
+      fetchUserDetails();
+    }
+  }, []);
+
+  //loading screen
+  if (!userData && isLoading) {
+    return (
+      <div className="row-container justify-center align-center screen-container">
+        <p>Loading...</p>
+      </div>
+    );
+  }
+
+  const { phoneNumber, email, uniqueId, userDetails, bankDetails } =
+    userData as user;
+
+  const {
+    fullName,
+    bvn,
+    gender,
+    maritalStatus,
+    children,
+    typeOfResidence,
+    levelOfEducation,
+    employmentStatus,
+    sectorOfEmployment,
+    durationOfEmployment,
+    officeEmail,
+    monthlyIncome,
+    loanRepayment,
+    socials,
+    guarantors,
+    userTier,
+    accountBalance,
+  } = userDetails;
+
+  //userDetils tab
+  const UserDetailsTab = () => {
     return (
       <div className="user-profile">
         <section className="section">
@@ -24,35 +91,35 @@ export default function UserDetails({ params }: { params: { id: string } }) {
           <div className="info-grid">
             <div>
               <strong>Full Name</strong>
-              <p>Grace Effiom</p>
+              <p>{fullName}</p>
             </div>
             <div>
               <strong>Phone Number</strong>
-              <p>07060780922</p>
+              <p>{phoneNumber}</p>
             </div>
             <div>
               <strong>Email Address</strong>
-              <p>grace@gmail.com</p>
+              <p>{email}</p>
             </div>
             <div>
               <strong>BVN</strong>
-              <p>07060780922</p>
+              <p>{bvn}</p>
             </div>
             <div>
               <strong>Gender</strong>
-              <p>Female</p>
+              <p>{gender}</p>
             </div>
             <div>
               <strong>Marital Status</strong>
-              <p>Single</p>
+              <p>{maritalStatus}</p>
             </div>
             <div>
               <strong>Children</strong>
-              <p>None</p>
+              <p>{children}</p>
             </div>
             <div>
               <strong>Type of Residence</strong>
-              <p>Parent's Apartment</p>
+              <p>{typeOfResidence}</p>
             </div>
           </div>
         </section>
@@ -62,31 +129,31 @@ export default function UserDetails({ params }: { params: { id: string } }) {
           <div className="info-grid">
             <div>
               <strong>Level of Education</strong>
-              <p>B.Sc</p>
+              <p>{levelOfEducation}</p>
             </div>
             <div>
               <strong>Employment Status</strong>
-              <p>Employed</p>
+              <p>{employmentStatus}</p>
             </div>
             <div>
               <strong>Sector of Employment</strong>
-              <p>FinTech</p>
+              <p>{sectorOfEmployment}</p>
             </div>
             <div>
               <strong>Duration of Employment</strong>
-              <p>2 years</p>
+              <p>{durationOfEmployment}</p>
             </div>
             <div>
               <strong>Office Email</strong>
-              <p>grace@lendsqr.com</p>
+              <p>{officeEmail}</p>
             </div>
             <div>
               <strong>Monthly Income</strong>
-              <p>₦200,000.00 - ₦400,000.00</p>
+              <p>{monthlyIncome}</p>
             </div>
             <div>
               <strong>Loan Repayment</strong>
-              <p>40,000</p>
+              <p>{loanRepayment}</p>
             </div>
           </div>
         </section>
@@ -94,69 +161,46 @@ export default function UserDetails({ params }: { params: { id: string } }) {
         <section className="section">
           <h3 className="section-title">Socials</h3>
           <div className="info-grid">
-            <div>
-              <strong>Twitter</strong>
-              <p>@grace_effiom</p>
-            </div>
-            <div>
-              <strong>Facebook</strong>
-              <p>Grace Effiom</p>
-            </div>
-            <div>
-              <strong>Instagram</strong>
-              <p>@grace_effiom</p>
-            </div>
+            {socials?.map((social, index) => (
+              <div key={index}>
+                <strong>{social.name}</strong>
+                <p>{social.link}</p>
+              </div>
+            ))}
           </div>
         </section>
 
         <section className="section">
           <h3 className="section-title">Guarantor</h3>
-          <div className="info-grid">
-            <div>
-              <strong>Full Name</strong>
-              <p>Debby Ogana</p>
-            </div>
-            <div>
-              <strong>Phone Number</strong>
-              <p>07060780922</p>
-            </div>
-            <div>
-              <strong>Email Address</strong>
-              <p>debby@gmail.com</p>
-            </div>
-            <div>
-              <strong>Relationship</strong>
-              <p>Sister</p>
-            </div>
-          </div>
-        </section>
-
-        <section className="section">
-          <div className="info-grid">
-            <div>
-              <strong>Full Name</strong>
-              <p>Debby Ogana</p>
-            </div>
-            <div>
-              <strong>Phone Number</strong>
-              <p>07060780922</p>
-            </div>
-            <div>
-              <strong>Email Address</strong>
-              <p>debby@gmail.com</p>
-            </div>
-            <div>
-              <strong>Relationship</strong>
-              <p>Sister</p>
-            </div>
-          </div>
+          {guarantors?.map((guarantor, index) => (
+            <section className="section" key={index}>
+              <div className="info-grid">
+                <div>
+                  <strong>Full Name</strong>
+                  <p>{guarantor.fullName}</p>
+                </div>
+                <div>
+                  <strong>Phone Number</strong>
+                  <p>{guarantor.phoneNumber}</p>
+                </div>
+                <div>
+                  <strong>Email Address</strong>
+                  <p>{guarantor.emailAddress}</p>
+                </div>
+                <div>
+                  <strong>Relationship</strong>
+                  <p>{guarantor.relationship}</p>
+                </div>
+              </div>
+            </section>
+          ))}
         </section>
       </div>
     );
   };
 
   const content = [
-    <div>{UserProfile()}</div>,
+    <div>{UserDetailsTab()}</div>,
     <div className="user-profile">This is the Documents view</div>,
     <div className="user-profile">This is the Bank Details view</div>,
     <div className="user-profile">This is the Loans view</div>,
@@ -201,38 +245,21 @@ export default function UserDetails({ params }: { params: { id: string } }) {
                   height={100}
                 ></Image>
                 <div className="column-container gap-medium profile-block">
-                  <p>Grace Effiom</p>
-                  <p>LSQFf587g90</p>
+                  <p>{fullName}</p>
+                  <p className="user-tag">{uniqueId}</p>
                 </div>
               </div>
               <div className="column-container justify-center gap-medium profile-block">
                 <div>
                   <p>User’s Tier</p>
-                  <div className="row-container gap-small">
-                    <Image
-                      alt="star"
-                      src={"/images/icons/star-filled.svg"}
-                      width={16}
-                      height={16}
-                    ></Image>
-                    <Image
-                      alt="star"
-                      src={"/images/icons/star-outline.svg"}
-                      width={16}
-                      height={16}
-                    ></Image>
-                    <Image
-                      alt="star"
-                      src={"/images/icons/star-outline.svg"}
-                      width={16}
-                      height={16}
-                    ></Image>
-                  </div>
+                  <UserTierStars userTier={userTier ?? 1} />
                 </div>
               </div>
               <div className="column-container justify-center gap-medium info-block profile-block">
-                <p>₦200,000.00</p>
-                <p>9912345678/Providus Bank</p>
+                <p>{accountBalance}</p>
+                <p>
+                  {bankDetails.accountNumber}/{bankDetails.bankName}
+                </p>
               </div>
             </div>
           </div>

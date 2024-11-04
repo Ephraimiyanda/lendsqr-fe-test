@@ -12,6 +12,7 @@ import { Chip } from "../common/chip/chip";
 import Pagination from "../pagination/pagination";
 import Link from "next/link";
 import "../table/tableStyles.scss";
+import { useRouter } from "next/navigation";
 interface ITableProp {
   data?: user[];
   loading: boolean;
@@ -30,7 +31,7 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
   const [page, setPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(20);
   const [openDialogRowId, setOpenDialogRowId] = useState(null);
-
+  const router = useRouter();
   useEffect(() => {
     const handleClickOutside = (event: any) => {
       if (
@@ -180,7 +181,11 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
                     className="dialog-content"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    <button>
+                    <button
+                      onClick={() => {
+                        router.push(`/dashboard/customers/users/${item._id}`);
+                      }}
+                    >
                       <Image
                         src="/images/icons/eye.svg"
                         alt="vertical-dots"
