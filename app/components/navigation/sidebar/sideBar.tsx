@@ -1,8 +1,10 @@
+"use client";
 import { sideBarMenu } from "@/app/assets/constants/sidebarMenuData";
 import { SidebarItem } from "./sideBarItem";
 import { usePathname } from "next/navigation";
 import "../sidebar/sidebarStyles.scss";
 import Image from "next/image";
+import { signOut } from "next-auth/react";
 export function Sidebar() {
   return (
     <aside className=" column-container sidebar gap-x-large overflow-auto h-full ">
@@ -75,7 +77,12 @@ export function Sidebar() {
         </div>
       ))}
       <div className="logout-container">
-        <button className="logout-button">
+        <button
+          className="logout-button"
+          onClick={() => {
+            signOut();
+          }}
+        >
           <Image
             src={"/images/icons/log-out.svg"}
             alt={"logout"}

@@ -1,9 +1,35 @@
-import Link from "next/link";
+"use client";
 import "../../../styles/loginPageStyles/style.scss";
+import Link from "next/link";
 import Image from "next/image";
 import { Logo } from "@/app/components/common/logo/logo";
 import signInMan from "../../../../public/images/sign-in-man.svg";
-export default function Page() {
+import { useEffect, useMemo, useState } from "react";
+import { signIn, useSession } from "next-auth/react";
+import { redirect, useSearchParams } from "next/navigation";
+export default function LoginPage() {
+  const [errorMessage, setErrorMessage] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const searchParams = useSearchParams();
+  const error = searchParams?.get("error");
+
+  //redirect to login page if not logged in
+  const session = useSession({
+    required: true,
+    onUnauthenticated() {
+      redirect("/auth/login");
+    },
+  });
+  useEffect(() => {
+    if (error) {
+      setLoading(false);
+      setErrorMessage(error);
+    }
+  }, [error]);
+
   return (
     <div className="screen-container ">
       <div className="w-full ">
@@ -22,7 +48,16 @@ export default function Page() {
               <Logo></Logo>
             </div>
             <form
-              action=""
+              onSubmit={(e) => {
+                e.preventDefault();
+                setLoading(true);
+                signIn("credentials", {
+                  email,
+                  password,
+                  redirect: true,
+                  callbackUrl: "/dashboard",
+                });
+              }}
               className="login-form w-full column-container gap-xxl"
             >
               <div className="login-welcome gap-medium">
@@ -35,12 +70,23 @@ export default function Page() {
                     type="email"
                     placeholder="Email"
                     className="form-input"
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                    }}
+                    value={email}
                   />
                   <input
                     type="password"
                     placeholder="Password"
                     className="form-input"
+                    onChange={(e) => {
+                      setPassword(e.target.value);
+                    }}
+                    value={password}
                   />
+                  {errorMessage && (
+                    <p className="login-error">{errorMessage}</p>
+                  )}
                   <Link
                     rel="stylesheet"
                     href="#"
@@ -49,7 +95,9 @@ export default function Page() {
                     FORGOT PASSWORD?
                   </Link>
                 </div>
-                <button className="login-button">LOG IN</button>
+                <button className="login-button">
+                  {loading ? "LOGGING IN..." : "LOG IN"}
+                </button>
               </div>
             </form>
           </div>
@@ -58,3 +106,4 @@ export default function Page() {
     </div>
   );
 }
+LoginPage.auth = true;

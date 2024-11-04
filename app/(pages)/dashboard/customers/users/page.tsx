@@ -5,6 +5,8 @@ import { Chip } from "@/app/components/common/chip/chip";
 import { PageHeader } from "@/app/components/headers/pageHeader/pageHeader";
 import DashTable from "@/app/components/table/table";
 import { user } from "@/app/types/userTypes";
+import { useSession } from "next-auth/react";
+import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
 interface response {
   data: user[];
@@ -17,10 +19,18 @@ export default function UsersPage() {
   const [data, setData] = useState<response>();
   const [isLoading, setIsLoading] = useState(true);
 
+  //redirect to login page if not logged in
+  const sesssion = useSession({
+    required: true,
+    onUnauthenticated() {
+      redirect("/auth/login");
+    },
+  });
+
   //fetchuser data
   async function fetchUserData() {
     try {
-      const data = await fetch("/api/userData");
+      const data = await fetch("/api/data/userData");
       const resData = await data.json();
       if (resData) {
         setData(resData);
@@ -67,3 +77,4 @@ export default function UsersPage() {
     </div>
   );
 }
+UsersPage.auth = true;

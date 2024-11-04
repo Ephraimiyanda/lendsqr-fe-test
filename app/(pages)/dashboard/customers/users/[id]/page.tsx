@@ -1,13 +1,14 @@
 "use client";
 import { PageHeader } from "@/app/components/headers/pageHeader/pageHeader";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
 import Image from "next/image";
 import SlidingTabs from "@/app/components/tabs/tabs";
 import "../../../../../styles/userPageStyles/style.scss";
 import { use, useEffect, useState } from "react";
 import type { UserDetails, user } from "@/app/types/userTypes";
 import UserTierStars from "@/app/components/common/tierStars/stars";
+import { useSession } from "next-auth/react";
 export default function UserDetails({
   params,
 }: {
@@ -27,10 +28,18 @@ export default function UserDetails({
   const id = use(params).id;
   const savedUserDetails = localStorage.getItem(`user-${id}`);
 
+  //session
+  const sesssion = useSession({
+    required: true,
+    onUnauthenticated() {
+      redirect("/auth/login");
+    },
+  });
+
   //fetchuser data
   async function fetchUserDetails() {
     try {
-      const data = await fetch(`/api/userDetails?id=${id}`);
+      const data = await fetch(`/api/data/userDetails?id=${id}`);
       const resData = await data.json();
       if (resData) {
         setUserData(resData.data);
@@ -273,3 +282,4 @@ export default function UserDetails({
     </div>
   );
 }
+UserDetails.auth = true;
