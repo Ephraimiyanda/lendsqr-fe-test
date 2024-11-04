@@ -12,7 +12,6 @@ This is a job assignment project developed using **Next.js**, **TypeScript**, **
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
-- [Scripts](#scripts)
 
 ---
 
