@@ -40,53 +40,55 @@ The project is built with the following technologies:
 
 ## Project Structure
 
+```
 project-root/
 │
 ├── app/
-│ ├── (pages)/ # Main application pages, organized by feature
-│ │ ├── auth/ # Authentication pages (e.g., login, register)
-│ │ ├── dashboard/ # Dashboard module
-│ │ │ ├── customers/ # Customer-related pages
-│ │ │ ├── user/ # User-specific pages
+│   ├── (pages)/                 # Main application pages, organized by feature
+│   │   ├── auth/                # Authentication pages (e.g., login, register)
+│   │   ├── dashboard/           # Dashboard module
+│   │   │   ├── customers/       # Customer-related pages
+│   │   │   ├── user/            # User-specific pages
 │
-│ ├── components/ # Reusable components, grouped by type or feature
-│ │ ├── cards/ # Card components (e.g., InfoCard, UserCard)
-│ │ ├── commons/ # Common reusable components (e.g., Button, Loader)
-│ │ ├── headers/ # Header components (e.g., MainHeader, SubHeader)
-│ │ ├── navigation/ # Navigation-related components (e.g., Sidebar, Navbar)
-│ │ ├── pagination/ # Pagination components
-│ │ ├── table/ # Table components (e.g., DataTable, TableRow)
-│ │ └── tabs/ # Tab components for tabbed views
+│   ├── components/              # Reusable components, grouped by type or feature
+│   │   ├── cards/               # Card components (e.g., InfoCard, UserCard)
+│   │   ├── commons/             # Common reusable components (e.g., Button, Loader)
+│   │   ├── headers/             # Header components (e.g., MainHeader, SubHeader)
+│   │   ├── navigation/          # Navigation-related components (e.g., Sidebar, Navbar)
+│   │   ├── pagination/          # Pagination components
+│   │   ├── table/               # Table components (e.g., DataTable, TableRow)
+│   │   └── tabs/                # Tab components for tabbed views
 │
-│ ├── assets/ # Static assets, constants, and configuration files
-│ │ ├── constants/ # Constant values and configurations
-│ │  
+│   ├── assets/                  # Static assets, constants, and configuration files
+│   │   ├── constants/           # Constant values and configurations
+│   │
 │
-│ ├── fonts/ # Custom fonts
+│   ├── fonts/                   # Custom fonts
 │
-│ ├── providers/ # Context providers or custom hooks (e.g., AuthProvider, ThemeProvider)
+│   ├── providers/               # Context providers or custom hooks (e.g., AuthProvider, ThemeProvider)
 │
-│ ├── styles/
-│ ├── index.scss # Global SCSS or CSS stylesheets and design system
-│ │ ├── colors/ # global color styles
-│ │ └── pageStyles #page styles
-│ │ ├── userPageStyles/  
-│ │ └── loginPageStyles/  
+│   ├── styles/
+│       ├── index.scss           # Global SCSS or CSS stylesheets and design system
+│   │   ├── colors/              # global color styles
+│   │   └── pageStyles           #page styles
+│   │       ├── userPageStyles/
+│   │       └── loginPageStyles/
 │
-│ ├── types/ # TypeScript types and interfaces
+│   ├── types/                   # TypeScript types and interfaces
 │
-│ └── pages/api/ # API routes (Next.js API routes)
+│   └── pages/api/               # API routes (Next.js API routes)
 │
-├── public/ # Public assets served directly
-│ └── images/ # Public images
-│ ├── icons/ # Icons
-│ └── userIcons/ # User-related icons
+├── public/                      # Public assets served directly
+│   └── images/                  # Public images
+│       ├── icons/               # Icons
+│       └── userIcons/           # User-related icons
 │
-├── .eslintrc.json # ESLint configuration
-├── .prettierrc # Prettier configuration
-├── next.config.js # Next.js configuration
-├── tsconfig.json # TypeScript configuration
-└── README.md # Project README
+├── .eslintrc.json               # ESLint configuration
+├── .prettierrc                  # Prettier configuration
+├── next.config.js               # Next.js configuration
+├── tsconfig.json                # TypeScript configuration
+└── README.md                    # Project README
+```
 
 ## Getting Started
 
