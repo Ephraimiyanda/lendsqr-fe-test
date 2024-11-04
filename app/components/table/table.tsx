@@ -32,6 +32,8 @@ const DashTable: React.FC<ITableProp> = ({ data, loading }) => {
   const [rowsPerPage, setRowsPerPage] = useState(20);
   const [openDialogRowId, setOpenDialogRowId] = useState(null);
   const router = useRouter();
+
+  //close dialog on outside click
   useEffect(() => {
     const handleClickOutside = (event: any) => {
       if (
