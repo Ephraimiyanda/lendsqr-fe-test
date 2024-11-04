@@ -12,6 +12,6 @@ export default function Home() {
     },
   });
 
-  return <div>redirecting</div>;
+  return <div></div>;
 }
 Home.auth = true;
