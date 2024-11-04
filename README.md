@@ -44,19 +44,19 @@ The project is built with the following technologies:
 project-root/
 │
 ├── app/
-│   ├── (pages)/                 # Main application pages, organized by feature
-│   │   ├── auth/                # Authentication pages (e.g., login, register)
+│   ├── (pages)/                 # Main application pages grouped for readabilty and easy maintainance
+│   │   ├── auth/                # Authentication pages (e.g login)
 │   │   ├── dashboard/           # Dashboard module
 │   │   │   ├── customers/       # Customer-related pages
 │   │   │   ├── user/            # User-specific pages
 │
 │   ├── components/              # Reusable components, grouped by type or feature
-│   │   ├── cards/               # Card components (e.g., InfoCard, UserCard)
-│   │   ├── commons/             # Common reusable components (e.g., Button, Loader)
-│   │   ├── headers/             # Header components (e.g., MainHeader, SubHeader)
-│   │   ├── navigation/          # Navigation-related components (e.g., Sidebar, Navbar)
+│   │   ├── cards/               # Card components (e.g user page cards)
+│   │   ├── commons/             # Common reusable components (e.g chip)
+│   │   ├── headers/             # Header components (e.g page header)
+│   │   ├── navigation/          # Navigation-related components (e.g Sidebar, Navbar)
 │   │   ├── pagination/          # Pagination components
-│   │   ├── table/               # Table components (e.g., DataTable, TableRow)
+│   │   ├── table/               # Table components (e.g table)
 │   │   └── tabs/                # Tab components for tabbed views
 │
 │   ├── assets/                  # Static assets, constants, and configuration files
@@ -65,7 +65,7 @@ project-root/
 │
 │   ├── fonts/                   # Custom fonts
 │
-│   ├── providers/               # Context providers or custom hooks (e.g., AuthProvider, ThemeProvider)
+│   ├── providers/               # Context providers or custom hooks (e.g Session Provider)
 │
 │   ├── styles/
 │       ├── index.scss           # Global SCSS or CSS stylesheets and design system
