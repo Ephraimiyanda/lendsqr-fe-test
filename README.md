@@ -13,7 +13,6 @@ This is a job assignment project developed using **Next.js**, **TypeScript**, **
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Scripts](#scripts)
-- [Additional Notes](#additional-notes)
 
 ---
 
@@ -89,3 +88,37 @@ project-root/
 ├── next.config.js # Next.js configuration
 ├── tsconfig.json # TypeScript configuration
 └── README.md # Project README
+
+## Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+- **Node.js** and **npm** (or **yarn**) installed globally.
+
+### Installation
+
+npm install
+
+# or, if using yarn:
+
+yarn install
+
+## Run development server
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Ephraimiyanda/lendsqr-fe-test
+   cd project-directory
+   ```

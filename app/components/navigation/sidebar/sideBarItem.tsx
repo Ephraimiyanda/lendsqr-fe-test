@@ -7,8 +7,16 @@ export function SidebarItem({ name, href, icon }: sidebarItems) {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
-    // Check if the pathname starts with the href or if the pathname equals the href
-    return pathname === href || pathname?.startsWith(href + "/");
+    if (
+      href?.includes("/dashboard") &&
+      href !== "/dashboard" &&
+      pathname?.includes(href)
+    ) {
+      return true;
+    }
+    if (pathname === href) {
+      return true;
+    }
   };
 
   return (

@@ -4,11 +4,11 @@ import Link from "next/link";
 import { redirect, useRouter } from "next/navigation";
 import Image from "next/image";
 import SlidingTabs from "@/app/components/tabs/tabs";
-import "../../../../../styles/userPageStyles/style.scss";
 import { use, useEffect, useState } from "react";
 import type { UserDetails, user } from "@/app/types/userTypes";
 import UserTierStars from "@/app/components/common/tierStars/stars";
 import { useSession } from "next-auth/react";
+import "../../../../../styles/pageStyles/userPageStyles/style.scss";
 export default function UserDetails({
   params,
 }: {
@@ -28,7 +28,7 @@ export default function UserDetails({
   const id = use(params).id;
   const savedUserDetails = localStorage.getItem(`user-${id}`);
 
-  //session
+  //redirect to login page if not logged in
   const sesssion = useSession({
     required: true,
     onUnauthenticated() {
@@ -50,6 +50,7 @@ export default function UserDetails({
       throw new Error("An error has occured :" + error);
     }
   }
+
   useEffect(() => {
     if (savedUserDetails) {
       setUserData(JSON.parse(savedUserDetails));

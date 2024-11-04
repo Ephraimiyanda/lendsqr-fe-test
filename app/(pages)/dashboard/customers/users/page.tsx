@@ -8,6 +8,8 @@ import { user } from "@/app/types/userTypes";
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
 import { useEffect, useState } from "react";
+import "../../../../styles/pageStyles/userPageStyles/style.scss";
+
 interface response {
   data: user[];
   userCount: number;

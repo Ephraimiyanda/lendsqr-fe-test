@@ -1,6 +1,7 @@
-@import "../colors/colors";
+@import "../../colors/colors";
 
 $form-max-width: 447px;
+
 //login styles
 .login-logo-container {
     top: 106px;
@@ -102,11 +103,13 @@ $form-max-width: 447px;
         font-size: 20px;
     }
 }
-.login-error{
+
+.login-error {
     color: #E4033B;
 }
+
 @media(max-width:740px) {
-  
+
     .login-section-container-1 {
         display: none;
     }
@@ -131,7 +134,7 @@ $form-max-width: 447px;
         left: 0;
     }
 
-   
+
 
 
 }

@@ -1,12 +1,12 @@
 "use client";
-import "../../../styles/loginPageStyles/style.scss";
 import Link from "next/link";
 import Image from "next/image";
 import { Logo } from "@/app/components/common/logo/logo";
-import signInMan from "../../../../public/images/sign-in-man.svg";
 import { useEffect, useMemo, useState } from "react";
 import { signIn, useSession } from "next-auth/react";
 import { redirect, useSearchParams } from "next/navigation";
+import signInMan from "../../../../public/images/sign-in-man.svg";
+import "../../../styles/pageStyles/loginPageStyles/style.scss";
 export default function LoginPage() {
   const [errorMessage, setErrorMessage] = useState("");
   const [email, setEmail] = useState("");
