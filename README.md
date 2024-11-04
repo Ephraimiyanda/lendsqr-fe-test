@@ -118,6 +118,14 @@ pnpm dev
 bun dev
 ```
 
+## login to dashboard
+
+```
+email: lendsqradmin@gmail.com
+
+password: lendsqradmin
+```
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Ephraimiyanda/lendsqr-fe-test
