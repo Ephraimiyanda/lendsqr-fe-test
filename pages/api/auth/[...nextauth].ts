@@ -24,7 +24,10 @@ export const authOptions = {
               data.email === "lendsqradmin@gmail.com" &&
               data.password === "lendsqradmin"
             ) {
-              return true;
+              return {
+                email: "lendsqradmin@gmail.com",
+                password: "lendsqradmin",
+              };
             } else {
               throw new Error("invalid login details");
             }
