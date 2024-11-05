@@ -10,6 +10,7 @@ export interface user {
   withSavings: boolean;
   userTier: number;
   bankDetails: {
+    accountBalance: number;
     bankName: string;
     accountNumber: number;
   };
