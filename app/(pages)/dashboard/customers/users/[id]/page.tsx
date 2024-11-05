@@ -268,7 +268,7 @@ export default function UserDetails({
                 </div>
               </div>
               <div className="column-container justify-center gap-medium info-block profile-block">
-                <p>{bankDetails.accountBalance.toLocaleString()}</p>
+                <p>₦{bankDetails.accountBalance.toLocaleString()}</p>
                 <p>
                   {bankDetails.accountNumber}/{bankDetails.bankName}
                 </p>
