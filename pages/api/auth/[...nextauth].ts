@@ -24,16 +24,12 @@ export const authOptions = {
               data.email === "lendsqradmin@gmail.com" &&
               data.password === "lendsqradmin"
             ) {
-              return {
-                email: "lendsqradmin@gmail.com",
-                password: "lendsqradmin",
-              };
-            } else {
-              throw new Error("invalid login details");
+              return true;
             }
           }
         } catch (error) {
-          throw new Error("invalid login details");
+          // @ts-ignore
+          throw new Error(error);
         }
       },
     }),
