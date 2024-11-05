@@ -38,5 +38,5 @@ export default function handler(
       usersWithLoans,
       usersWithSavings,
     });
-  }, 2000);
+  }, 500);
 }

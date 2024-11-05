@@ -46,7 +46,7 @@ export default function handler(
       // Return all users with a delay if no `id` is specified
       setTimeout(() => {
         res.status(200).json({ data, message: "Data retrieved successfully" });
-      }, 2000);
+      }, 500);
     }
   } catch (error) {
     console.error("Error reading JSON file:", error);
