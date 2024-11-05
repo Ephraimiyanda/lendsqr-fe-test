@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { useSession } from "next-auth/react";
-import UserDetails from "../../(pages)/dashboard/customers/users/[id]/page";
+import UserDetails from "../../../../../pages/users/[id]";
 import { useRouter } from "next/router";
 
 global.fetch = jest.fn();
