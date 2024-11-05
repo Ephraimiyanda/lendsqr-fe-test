@@ -9,6 +9,7 @@
     "phoneNumber": "(991) 475-3383",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3628800875
     },
@@ -71,6 +72,7 @@
     "phoneNumber": "(990) 569-3825",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9926334154
     },
@@ -133,6 +135,7 @@
     "phoneNumber": "(996) 521-3337",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7973916005
     },
@@ -195,6 +198,7 @@
     "phoneNumber": "(935) 431-3712",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3104245129
     },
@@ -257,6 +261,7 @@
     "phoneNumber": "(966) 504-3384",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1512933457
     },
@@ -319,6 +324,7 @@
     "phoneNumber": "(950) 562-2586",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1652714826
     },
@@ -381,6 +387,7 @@
     "phoneNumber": "(930) 498-3433",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4211303045
     },
@@ -443,6 +450,7 @@
     "phoneNumber": "(895) 456-2144",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7702131604
     },
@@ -505,6 +513,7 @@
     "phoneNumber": "(953) 508-2562",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9643780298
     },
@@ -567,6 +576,7 @@
     "phoneNumber": "(876) 579-3659",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4600784725
     },
@@ -629,6 +639,7 @@
     "phoneNumber": "(986) 561-2645",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7648628503
     },
@@ -691,6 +702,7 @@
     "phoneNumber": "(945) 427-3938",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6709726864
     },
@@ -753,6 +765,7 @@
     "phoneNumber": "(802) 424-3324",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1159132865
     },
@@ -815,6 +828,7 @@
     "phoneNumber": "(919) 482-2510",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 8409697124
     },
@@ -877,6 +891,7 @@
     "phoneNumber": "(989) 594-2075",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5646731964
     },
@@ -939,6 +954,7 @@
     "phoneNumber": "(970) 508-3964",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7056738183
     },
@@ -1001,6 +1017,7 @@
     "phoneNumber": "(996) 490-3148",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4391705805
     },
@@ -1063,6 +1080,7 @@
     "phoneNumber": "(954) 529-3423",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9558917773
     },
@@ -1125,6 +1143,7 @@
     "phoneNumber": "(934) 531-3547",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1373661253
     },
@@ -1187,6 +1206,7 @@
     "phoneNumber": "(988) 541-2288",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1606526322
     },
@@ -1249,6 +1269,7 @@
     "phoneNumber": "(851) 495-2854",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6873592096
     },
@@ -1311,6 +1332,7 @@
     "phoneNumber": "(968) 400-2063",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6806452822
     },
@@ -1373,6 +1395,7 @@
     "phoneNumber": "(848) 543-2211",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4393472480
     },
@@ -1435,6 +1458,7 @@
     "phoneNumber": "(810) 550-3807",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8072012987
     },
@@ -1497,6 +1521,7 @@
     "phoneNumber": "(826) 481-3381",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6281071752
     },
@@ -1559,6 +1584,7 @@
     "phoneNumber": "(807) 516-2736",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2087415184
     },
@@ -1621,6 +1647,7 @@
     "phoneNumber": "(977) 471-3893",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4651727848
     },
@@ -1683,6 +1710,7 @@
     "phoneNumber": "(972) 581-3986",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2998904452
     },
@@ -1745,6 +1773,7 @@
     "phoneNumber": "(874) 556-2725",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3781105875
     },
@@ -1807,6 +1836,7 @@
     "phoneNumber": "(962) 578-2900",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9142438289
     },
@@ -1869,6 +1899,7 @@
     "phoneNumber": "(862) 507-2036",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8483906803
     },
@@ -1931,6 +1962,7 @@
     "phoneNumber": "(982) 600-2384",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 8803011366
     },
@@ -1993,6 +2025,7 @@
     "phoneNumber": "(911) 510-2837",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7273800982
     },
@@ -2055,6 +2088,7 @@
     "phoneNumber": "(995) 484-3698",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4093908131
     },
@@ -2117,6 +2151,7 @@
     "phoneNumber": "(877) 480-2855",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2332167857
     },
@@ -2179,6 +2214,7 @@
     "phoneNumber": "(893) 465-3118",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7241574130
     },
@@ -2241,6 +2277,7 @@
     "phoneNumber": "(947) 451-2030",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4154379391
     },
@@ -2303,6 +2340,7 @@
     "phoneNumber": "(889) 474-2956",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3178240204
     },
@@ -2365,6 +2403,7 @@
     "phoneNumber": "(943) 515-2103",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3265254962
     },
@@ -2427,6 +2466,7 @@
     "phoneNumber": "(910) 476-2688",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6380844875
     },
@@ -2489,6 +2529,7 @@
     "phoneNumber": "(809) 488-2167",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6697515089
     },
@@ -2551,6 +2592,7 @@
     "phoneNumber": "(886) 544-2478",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6491368122
     },
@@ -2613,6 +2655,7 @@
     "phoneNumber": "(875) 581-2870",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3581826124
     },
@@ -2675,6 +2718,7 @@
     "phoneNumber": "(885) 572-3074",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5718100530
     },
@@ -2737,6 +2781,7 @@
     "phoneNumber": "(875) 481-3926",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7464715906
     },
@@ -2799,6 +2844,7 @@
     "phoneNumber": "(939) 583-2214",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5665808839
     },
@@ -2861,6 +2907,7 @@
     "phoneNumber": "(879) 598-2851",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4282031938
     },
@@ -2923,6 +2970,7 @@
     "phoneNumber": "(977) 480-2353",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2113014572
     },
@@ -2985,6 +3033,7 @@
     "phoneNumber": "(803) 580-2449",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2484904897
     },
@@ -3047,6 +3096,7 @@
     "phoneNumber": "(943) 424-2596",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2031699848
     },
@@ -3109,6 +3159,7 @@
     "phoneNumber": "(936) 513-3655",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3473762715
     },
@@ -3171,6 +3222,7 @@
     "phoneNumber": "(878) 593-2495",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9180076347
     },
@@ -3233,6 +3285,7 @@
     "phoneNumber": "(954) 465-3873",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8158559170
     },
@@ -3295,6 +3348,7 @@
     "phoneNumber": "(809) 551-3831",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7714689157
     },
@@ -3357,6 +3411,7 @@
     "phoneNumber": "(805) 522-3080",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7219916497
     },
@@ -3419,6 +3474,7 @@
     "phoneNumber": "(820) 534-3560",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5560074491
     },
@@ -3481,6 +3537,7 @@
     "phoneNumber": "(844) 544-3330",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6812943885
     },
@@ -3543,6 +3600,7 @@
     "phoneNumber": "(832) 460-2513",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7874439798
     },
@@ -3605,6 +3663,7 @@
     "phoneNumber": "(941) 545-3921",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 8026153388
     },
@@ -3667,6 +3726,7 @@
     "phoneNumber": "(884) 528-2741",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5948332389
     },
@@ -3729,6 +3789,7 @@
     "phoneNumber": "(875) 546-3605",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1562593635
     },
@@ -3791,6 +3852,7 @@
     "phoneNumber": "(869) 599-2438",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6613378678
     },
@@ -3853,6 +3915,7 @@
     "phoneNumber": "(833) 581-3799",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7043893807
     },
@@ -3915,6 +3978,7 @@
     "phoneNumber": "(843) 595-2082",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7380139431
     },
@@ -3977,6 +4041,7 @@
     "phoneNumber": "(909) 503-2281",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1911242252
     },
@@ -4039,6 +4104,7 @@
     "phoneNumber": "(881) 406-3438",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 8899415363
     },
@@ -4101,6 +4167,7 @@
     "phoneNumber": "(996) 526-3422",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6191470011
     },
@@ -4163,6 +4230,7 @@
     "phoneNumber": "(856) 561-3000",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1195742955
     },
@@ -4225,6 +4293,7 @@
     "phoneNumber": "(848) 587-3753",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1949914721
     },
@@ -4287,6 +4356,7 @@
     "phoneNumber": "(942) 517-3309",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1137626915
     },
@@ -4349,6 +4419,7 @@
     "phoneNumber": "(998) 556-2901",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2075973237
     },
@@ -4411,6 +4482,7 @@
     "phoneNumber": "(918) 552-3369",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5374511519
     },
@@ -4473,6 +4545,7 @@
     "phoneNumber": "(878) 514-3876",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1912024581
     },
@@ -4535,6 +4608,7 @@
     "phoneNumber": "(977) 406-2107",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8370081248
     },
@@ -4597,6 +4671,7 @@
     "phoneNumber": "(903) 460-3796",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4088535757
     },
@@ -4659,6 +4734,7 @@
     "phoneNumber": "(895) 586-3251",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7149468593
     },
@@ -4721,6 +4797,7 @@
     "phoneNumber": "(904) 578-3052",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1525060666
     },
@@ -4783,6 +4860,7 @@
     "phoneNumber": "(939) 419-3314",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2796939181
     },
@@ -4845,6 +4923,7 @@
     "phoneNumber": "(909) 580-3088",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1695544428
     },
@@ -4907,6 +4986,7 @@
     "phoneNumber": "(970) 477-2813",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1364270362
     },
@@ -4969,6 +5049,7 @@
     "phoneNumber": "(910) 413-2987",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4790452083
     },
@@ -5031,6 +5112,7 @@
     "phoneNumber": "(896) 490-3010",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6142020987
     },
@@ -5093,6 +5175,7 @@
     "phoneNumber": "(810) 539-2330",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6605570374
     },
@@ -5155,6 +5238,7 @@
     "phoneNumber": "(979) 417-3867",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9758895292
     },
@@ -5217,6 +5301,7 @@
     "phoneNumber": "(869) 560-2493",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6422228952
     },
@@ -5279,6 +5364,7 @@
     "phoneNumber": "(919) 468-2423",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1604315947
     },
@@ -5341,6 +5427,7 @@
     "phoneNumber": "(854) 519-2413",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5021603247
     },
@@ -5403,6 +5490,7 @@
     "phoneNumber": "(879) 479-3869",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4633704434
     },
@@ -5465,6 +5553,7 @@
     "phoneNumber": "(946) 525-3569",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9866579351
     },
@@ -5527,6 +5616,7 @@
     "phoneNumber": "(825) 539-3788",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4800452147
     },
@@ -5589,6 +5679,7 @@
     "phoneNumber": "(999) 515-2646",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1312436434
     },
@@ -5651,6 +5742,7 @@
     "phoneNumber": "(902) 528-3438",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4280559488
     },
@@ -5713,6 +5805,7 @@
     "phoneNumber": "(914) 572-2704",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1792525785
     },
@@ -5775,6 +5868,7 @@
     "phoneNumber": "(921) 442-3881",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3323441899
     },
@@ -5837,6 +5931,7 @@
     "phoneNumber": "(837) 567-2431",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9134121052
     },
@@ -5899,6 +5994,7 @@
     "phoneNumber": "(918) 562-3974",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9811872699
     },
@@ -5961,6 +6057,7 @@
     "phoneNumber": "(960) 540-2090",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9469496056
     },
@@ -6023,6 +6120,7 @@
     "phoneNumber": "(816) 516-3339",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5361011340
     },
@@ -6085,6 +6183,7 @@
     "phoneNumber": "(937) 508-3195",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3736334339
     },
@@ -6147,6 +6246,7 @@
     "phoneNumber": "(931) 464-2548",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4571493022
     },
@@ -6209,6 +6309,7 @@
     "phoneNumber": "(850) 459-3836",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9737244987
     },
@@ -6271,6 +6372,7 @@
     "phoneNumber": "(826) 432-3892",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4473998517
     },
@@ -6333,6 +6435,7 @@
     "phoneNumber": "(973) 574-3863",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3156479799
     },
@@ -6395,6 +6498,7 @@
     "phoneNumber": "(990) 578-2440",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 3629135736
     },
@@ -6457,6 +6561,7 @@
     "phoneNumber": "(844) 417-2220",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8967438410
     },
@@ -6519,6 +6624,7 @@
     "phoneNumber": "(967) 411-3441",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5974601646
     },
@@ -6581,6 +6687,7 @@
     "phoneNumber": "(823) 557-3021",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7995617071
     },
@@ -6643,6 +6750,7 @@
     "phoneNumber": "(978) 482-3195",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9062339963
     },
@@ -6705,6 +6813,7 @@
     "phoneNumber": "(847) 406-2322",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6567925477
     },
@@ -6767,6 +6876,7 @@
     "phoneNumber": "(847) 509-3048",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 5642475970
     },
@@ -6829,6 +6939,7 @@
     "phoneNumber": "(857) 470-2511",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6148557376
     },
@@ -6891,6 +7002,7 @@
     "phoneNumber": "(894) 561-3608",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5055395573
     },
@@ -6953,6 +7065,7 @@
     "phoneNumber": "(808) 576-3344",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2879985921
     },
@@ -7015,6 +7128,7 @@
     "phoneNumber": "(818) 421-2046",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2726248095
     },
@@ -7077,6 +7191,7 @@
     "phoneNumber": "(945) 447-2864",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 3667836534
     },
@@ -7139,6 +7254,7 @@
     "phoneNumber": "(808) 434-2315",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2130118622
     },
@@ -7201,6 +7317,7 @@
     "phoneNumber": "(909) 546-2610",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7724587976
     },
@@ -7263,6 +7380,7 @@
     "phoneNumber": "(911) 508-2888",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5177507045
     },
@@ -7325,6 +7443,7 @@
     "phoneNumber": "(850) 416-2668",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8942313122
     },
@@ -7387,6 +7506,7 @@
     "phoneNumber": "(871) 595-3787",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6474760019
     },
@@ -7449,6 +7569,7 @@
     "phoneNumber": "(833) 482-2708",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4602762961
     },
@@ -7511,6 +7632,7 @@
     "phoneNumber": "(964) 559-3211",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3514228635
     },
@@ -7573,6 +7695,7 @@
     "phoneNumber": "(818) 418-3901",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5922108810
     },
@@ -7635,6 +7758,7 @@
     "phoneNumber": "(841) 553-3046",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2260217204
     },
@@ -7697,6 +7821,7 @@
     "phoneNumber": "(829) 501-3166",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2954943591
     },
@@ -7759,6 +7884,7 @@
     "phoneNumber": "(972) 418-3510",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1837527571
     },
@@ -7821,6 +7947,7 @@
     "phoneNumber": "(975) 405-2386",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2111645374
     },
@@ -7883,6 +8010,7 @@
     "phoneNumber": "(831) 531-2790",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5762421777
     },
@@ -7945,6 +8073,7 @@
     "phoneNumber": "(832) 505-2391",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2261127924
     },
@@ -8007,6 +8136,7 @@
     "phoneNumber": "(860) 540-2665",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2464204360
     },
@@ -8069,6 +8199,7 @@
     "phoneNumber": "(858) 487-2919",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3296139554
     },
@@ -8131,6 +8262,7 @@
     "phoneNumber": "(820) 572-2196",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3298113264
     },
@@ -8193,6 +8325,7 @@
     "phoneNumber": "(982) 528-3813",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2184529290
     },
@@ -8255,6 +8388,7 @@
     "phoneNumber": "(969) 554-3590",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1406511057
     },
@@ -8317,6 +8451,7 @@
     "phoneNumber": "(946) 447-2728",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7658659989
     },
@@ -8379,6 +8514,7 @@
     "phoneNumber": "(841) 572-2085",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3853828717
     },
@@ -8441,6 +8577,7 @@
     "phoneNumber": "(885) 494-2274",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2801597746
     },
@@ -8503,6 +8640,7 @@
     "phoneNumber": "(824) 420-2913",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1757366876
     },
@@ -8565,6 +8703,7 @@
     "phoneNumber": "(809) 427-3876",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1695588518
     },
@@ -8627,6 +8766,7 @@
     "phoneNumber": "(951) 562-2305",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5745737575
     },
@@ -8689,6 +8829,7 @@
     "phoneNumber": "(884) 478-2642",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9678658784
     },
@@ -8751,6 +8892,7 @@
     "phoneNumber": "(963) 517-2119",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4121238922
     },
@@ -8813,6 +8955,7 @@
     "phoneNumber": "(934) 406-2453",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5883104670
     },
@@ -8875,6 +9018,7 @@
     "phoneNumber": "(874) 525-2146",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6042726149
     },
@@ -8937,6 +9081,7 @@
     "phoneNumber": "(950) 514-3803",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2598201758
     },
@@ -8999,6 +9144,7 @@
     "phoneNumber": "(954) 578-3357",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4871239422
     },
@@ -9061,6 +9207,7 @@
     "phoneNumber": "(943) 425-2369",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5662018420
     },
@@ -9123,6 +9270,7 @@
     "phoneNumber": "(882) 539-3729",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6059595433
     },
@@ -9185,6 +9333,7 @@
     "phoneNumber": "(892) 472-2804",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1227516424
     },
@@ -9247,6 +9396,7 @@
     "phoneNumber": "(927) 561-3686",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6798758782
     },
@@ -9309,6 +9459,7 @@
     "phoneNumber": "(855) 414-3369",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2992378227
     },
@@ -9371,6 +9522,7 @@
     "phoneNumber": "(944) 507-3212",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1297260563
     },
@@ -9433,6 +9585,7 @@
     "phoneNumber": "(865) 518-2264",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3031070589
     },
@@ -9495,6 +9648,7 @@
     "phoneNumber": "(862) 437-3521",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7084915652
     },
@@ -9557,6 +9711,7 @@
     "phoneNumber": "(877) 482-3878",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5737205765
     },
@@ -9619,6 +9774,7 @@
     "phoneNumber": "(860) 509-3287",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5229141295
     },
@@ -9681,6 +9837,7 @@
     "phoneNumber": "(848) 587-3069",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1170567736
     },
@@ -9743,6 +9900,7 @@
     "phoneNumber": "(927) 559-2376",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2420481354
     },
@@ -9805,6 +9963,7 @@
     "phoneNumber": "(914) 507-3652",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7102681312
     },
@@ -9867,6 +10026,7 @@
     "phoneNumber": "(999) 414-3312",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4167147359
     },
@@ -9929,6 +10089,7 @@
     "phoneNumber": "(863) 531-2730",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2311908581
     },
@@ -9991,6 +10152,7 @@
     "phoneNumber": "(972) 430-2296",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3748670879
     },
@@ -10053,6 +10215,7 @@
     "phoneNumber": "(838) 400-4000",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3894262801
     },
@@ -10115,6 +10278,7 @@
     "phoneNumber": "(868) 485-2585",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9636664990
     },
@@ -10177,6 +10341,7 @@
     "phoneNumber": "(959) 545-2782",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9991617354
     },
@@ -10239,6 +10404,7 @@
     "phoneNumber": "(963) 512-2395",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2360860018
     },
@@ -10301,6 +10467,7 @@
     "phoneNumber": "(928) 579-2817",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4485737869
     },
@@ -10363,6 +10530,7 @@
     "phoneNumber": "(879) 444-2484",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 3321902226
     },
@@ -10425,6 +10593,7 @@
     "phoneNumber": "(907) 414-2068",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8015128847
     },
@@ -10487,6 +10656,7 @@
     "phoneNumber": "(840) 466-3947",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1444865228
     },
@@ -10549,6 +10719,7 @@
     "phoneNumber": "(953) 433-3657",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 3692590830
     },
@@ -10611,6 +10782,7 @@
     "phoneNumber": "(898) 427-3143",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9075753101
     },
@@ -10673,6 +10845,7 @@
     "phoneNumber": "(930) 440-2149",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5023944448
     },
@@ -10735,6 +10908,7 @@
     "phoneNumber": "(940) 460-2548",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7574931869
     },
@@ -10797,6 +10971,7 @@
     "phoneNumber": "(991) 437-2668",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1808452670
     },
@@ -10859,6 +11034,7 @@
     "phoneNumber": "(831) 542-2833",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3795712355
     },
@@ -10921,6 +11097,7 @@
     "phoneNumber": "(837) 426-3168",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6995675902
     },
@@ -10983,6 +11160,7 @@
     "phoneNumber": "(936) 592-3815",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3185003583
     },
@@ -11045,6 +11223,7 @@
     "phoneNumber": "(940) 599-2038",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1994302588
     },
@@ -11107,6 +11286,7 @@
     "phoneNumber": "(801) 422-3291",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 5778026297
     },
@@ -11169,6 +11349,7 @@
     "phoneNumber": "(988) 503-2848",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9682414376
     },
@@ -11231,6 +11412,7 @@
     "phoneNumber": "(851) 447-2229",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6876977202
     },
@@ -11293,6 +11475,7 @@
     "phoneNumber": "(887) 569-2402",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2012778494
     },
@@ -11355,6 +11538,7 @@
     "phoneNumber": "(834) 555-3840",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5110185747
     },
@@ -11417,6 +11601,7 @@
     "phoneNumber": "(994) 462-2076",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2658760272
     },
@@ -11479,6 +11664,7 @@
     "phoneNumber": "(875) 494-2859",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4155347139
     },
@@ -11541,6 +11727,7 @@
     "phoneNumber": "(959) 462-2621",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8851665699
     },
@@ -11603,6 +11790,7 @@
     "phoneNumber": "(862) 457-3672",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3309481463
     },
@@ -11665,6 +11853,7 @@
     "phoneNumber": "(834) 439-3750",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7457995163
     },
@@ -11727,6 +11916,7 @@
     "phoneNumber": "(962) 460-3502",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8299933407
     },
@@ -11789,6 +11979,7 @@
     "phoneNumber": "(886) 486-3978",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7807113352
     },
@@ -11851,6 +12042,7 @@
     "phoneNumber": "(861) 588-2601",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8804521740
     },
@@ -11913,6 +12105,7 @@
     "phoneNumber": "(854) 424-3240",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2025553179
     },
@@ -11975,6 +12168,7 @@
     "phoneNumber": "(872) 492-2605",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1708708598
     },
@@ -12037,6 +12231,7 @@
     "phoneNumber": "(946) 412-2687",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8338191765
     },
@@ -12099,6 +12294,7 @@
     "phoneNumber": "(898) 435-2326",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1317092330
     },
@@ -12161,6 +12357,7 @@
     "phoneNumber": "(937) 580-3306",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4494989069
     },
@@ -12223,6 +12420,7 @@
     "phoneNumber": "(911) 556-2950",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9875955098
     },
@@ -12285,6 +12483,7 @@
     "phoneNumber": "(800) 432-3383",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6634255070
     },
@@ -12347,6 +12546,7 @@
     "phoneNumber": "(927) 524-2971",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9897012178
     },
@@ -12409,6 +12609,7 @@
     "phoneNumber": "(861) 407-3526",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8499310094
     },
@@ -12471,6 +12672,7 @@
     "phoneNumber": "(836) 541-2085",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6650333643
     },
@@ -12533,6 +12735,7 @@
     "phoneNumber": "(953) 422-3594",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6556409504
     },
@@ -12595,6 +12798,7 @@
     "phoneNumber": "(959) 525-3342",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5871519975
     },
@@ -12657,6 +12861,7 @@
     "phoneNumber": "(935) 417-2558",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5727834652
     },
@@ -12719,6 +12924,7 @@
     "phoneNumber": "(923) 496-3901",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5179349634
     },
@@ -12781,6 +12987,7 @@
     "phoneNumber": "(944) 417-3049",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6467842143
     },
@@ -12843,6 +13050,7 @@
     "phoneNumber": "(978) 546-2679",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6822648374
     },
@@ -12905,6 +13113,7 @@
     "phoneNumber": "(836) 552-2982",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9307692346
     },
@@ -12967,6 +13176,7 @@
     "phoneNumber": "(929) 521-3100",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2254090730
     },
@@ -13029,6 +13239,7 @@
     "phoneNumber": "(975) 403-3102",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3730783110
     },
@@ -13091,6 +13302,7 @@
     "phoneNumber": "(839) 470-2596",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4635671694
     },
@@ -13153,6 +13365,7 @@
     "phoneNumber": "(837) 486-3962",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 5000903509
     },
@@ -13215,6 +13428,7 @@
     "phoneNumber": "(855) 597-2639",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4542138591
     },
@@ -13277,6 +13491,7 @@
     "phoneNumber": "(927) 523-2393",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5151355836
     },
@@ -13339,6 +13554,7 @@
     "phoneNumber": "(991) 420-2442",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8651891310
     },
@@ -13401,6 +13617,7 @@
     "phoneNumber": "(881) 484-2497",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7785313810
     },
@@ -13463,6 +13680,7 @@
     "phoneNumber": "(831) 421-2629",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5028040371
     },
@@ -13525,6 +13743,7 @@
     "phoneNumber": "(891) 570-3659",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3818354908
     },
@@ -13587,6 +13806,7 @@
     "phoneNumber": "(991) 423-2075",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7820316187
     },
@@ -13649,6 +13869,7 @@
     "phoneNumber": "(919) 443-2755",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3371490783
     },
@@ -13711,6 +13932,7 @@
     "phoneNumber": "(992) 494-2931",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6758924120
     },
@@ -13773,6 +13995,7 @@
     "phoneNumber": "(996) 420-2011",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3517620399
     },
@@ -13835,6 +14058,7 @@
     "phoneNumber": "(862) 501-3700",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2595687321
     },
@@ -13897,6 +14121,7 @@
     "phoneNumber": "(809) 523-2546",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7403914433
     },
@@ -13959,6 +14184,7 @@
     "phoneNumber": "(872) 589-2271",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7112026253
     },
@@ -14021,6 +14247,7 @@
     "phoneNumber": "(889) 478-2720",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4951576308
     },
@@ -14083,6 +14310,7 @@
     "phoneNumber": "(825) 532-3437",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6418315750
     },
@@ -14145,6 +14373,7 @@
     "phoneNumber": "(854) 587-3752",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4200545997
     },
@@ -14207,6 +14436,7 @@
     "phoneNumber": "(856) 444-2769",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7270552891
     },
@@ -14269,6 +14499,7 @@
     "phoneNumber": "(804) 402-2067",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2864452533
     },
@@ -14331,6 +14562,7 @@
     "phoneNumber": "(963) 463-2630",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7895170913
     },
@@ -14393,6 +14625,7 @@
     "phoneNumber": "(841) 412-3725",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2187015388
     },
@@ -14455,6 +14688,7 @@
     "phoneNumber": "(981) 422-2079",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1427222232
     },
@@ -14517,6 +14751,7 @@
     "phoneNumber": "(902) 549-3970",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6856214663
     },
@@ -14579,6 +14814,7 @@
     "phoneNumber": "(851) 565-2443",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5174451909
     },
@@ -14641,6 +14877,7 @@
     "phoneNumber": "(933) 492-2511",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1076831530
     },
@@ -14703,6 +14940,7 @@
     "phoneNumber": "(915) 515-2833",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9473776460
     },
@@ -14765,6 +15003,7 @@
     "phoneNumber": "(920) 530-2095",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6091698229
     },
@@ -14827,6 +15066,7 @@
     "phoneNumber": "(864) 587-2241",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4436985586
     },
@@ -14889,6 +15129,7 @@
     "phoneNumber": "(963) 556-2257",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6895903485
     },
@@ -14951,6 +15192,7 @@
     "phoneNumber": "(984) 423-2291",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4910140692
     },
@@ -15013,6 +15255,7 @@
     "phoneNumber": "(811) 575-2144",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4348111014
     },
@@ -15075,6 +15318,7 @@
     "phoneNumber": "(811) 548-2447",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6941511825
     },
@@ -15137,6 +15381,7 @@
     "phoneNumber": "(919) 415-3169",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3406193864
     },
@@ -15199,6 +15444,7 @@
     "phoneNumber": "(861) 569-3758",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2316066064
     },
@@ -15261,6 +15507,7 @@
     "phoneNumber": "(964) 575-2265",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2638469804
     },
@@ -15323,6 +15570,7 @@
     "phoneNumber": "(959) 429-3151",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7003680728
     },
@@ -15385,6 +15633,7 @@
     "phoneNumber": "(964) 480-3087",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2596773893
     },
@@ -15447,6 +15696,7 @@
     "phoneNumber": "(818) 400-3330",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5906809041
     },
@@ -15509,6 +15759,7 @@
     "phoneNumber": "(923) 532-2092",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2463601412
     },
@@ -15571,6 +15822,7 @@
     "phoneNumber": "(974) 557-2805",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8462893326
     },
@@ -15633,6 +15885,7 @@
     "phoneNumber": "(811) 424-3275",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4419526556
     },
@@ -15695,6 +15948,7 @@
     "phoneNumber": "(951) 455-3410",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4807623051
     },
@@ -15757,6 +16011,7 @@
     "phoneNumber": "(845) 501-3919",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5178955018
     },
@@ -15819,6 +16074,7 @@
     "phoneNumber": "(997) 462-3222",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8254247426
     },
@@ -15881,6 +16137,7 @@
     "phoneNumber": "(952) 420-3179",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2172302087
     },
@@ -15943,6 +16200,7 @@
     "phoneNumber": "(851) 483-2301",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5301402278
     },
@@ -16005,6 +16263,7 @@
     "phoneNumber": "(996) 539-3922",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1200551198
     },
@@ -16067,6 +16326,7 @@
     "phoneNumber": "(831) 564-2191",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2946061554
     },
@@ -16129,6 +16389,7 @@
     "phoneNumber": "(917) 557-3408",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6186614684
     },
@@ -16191,6 +16452,7 @@
     "phoneNumber": "(993) 526-3552",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2991300407
     },
@@ -16253,6 +16515,7 @@
     "phoneNumber": "(997) 419-2637",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1661813753
     },
@@ -16315,6 +16578,7 @@
     "phoneNumber": "(801) 496-3406",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4640537355
     },
@@ -16377,6 +16641,7 @@
     "phoneNumber": "(936) 594-2986",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3139832978
     },
@@ -16439,6 +16704,7 @@
     "phoneNumber": "(901) 434-2404",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7678478855
     },
@@ -16501,6 +16767,7 @@
     "phoneNumber": "(981) 410-3957",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5814227041
     },
@@ -16563,6 +16830,7 @@
     "phoneNumber": "(852) 418-2943",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9517666404
     },
@@ -16625,6 +16893,7 @@
     "phoneNumber": "(954) 512-2832",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3917346544
     },
@@ -16687,6 +16956,7 @@
     "phoneNumber": "(959) 585-2402",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9990878836
     },
@@ -16749,6 +17019,7 @@
     "phoneNumber": "(981) 425-3341",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5926102129
     },
@@ -16811,6 +17082,7 @@
     "phoneNumber": "(934) 475-3354",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1040173208
     },
@@ -16873,6 +17145,7 @@
     "phoneNumber": "(987) 499-2142",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7746974781
     },
@@ -16935,6 +17208,7 @@
     "phoneNumber": "(816) 532-3382",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7999631095
     },
@@ -16997,6 +17271,7 @@
     "phoneNumber": "(951) 499-2611",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9129729640
     },
@@ -17059,6 +17334,7 @@
     "phoneNumber": "(940) 449-3641",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6730141237
     },
@@ -17121,6 +17397,7 @@
     "phoneNumber": "(864) 411-3096",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8343427046
     },
@@ -17183,6 +17460,7 @@
     "phoneNumber": "(946) 488-3043",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4590343001
     },
@@ -17245,6 +17523,7 @@
     "phoneNumber": "(883) 505-3416",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8989425857
     },
@@ -17307,6 +17586,7 @@
     "phoneNumber": "(892) 568-2388",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9439094814
     },
@@ -17369,6 +17649,7 @@
     "phoneNumber": "(927) 500-3838",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8864403694
     },
@@ -17431,6 +17712,7 @@
     "phoneNumber": "(870) 551-3596",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3948223061
     },
@@ -17493,6 +17775,7 @@
     "phoneNumber": "(917) 560-3996",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9198086436
     },
@@ -17555,6 +17838,7 @@
     "phoneNumber": "(814) 487-3194",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9819264496
     },
@@ -17617,6 +17901,7 @@
     "phoneNumber": "(889) 498-2628",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2815271032
     },
@@ -17679,6 +17964,7 @@
     "phoneNumber": "(908) 547-3696",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9807644133
     },
@@ -17741,6 +18027,7 @@
     "phoneNumber": "(958) 517-3668",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8169711672
     },
@@ -17803,6 +18090,7 @@
     "phoneNumber": "(872) 432-3387",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5055621076
     },
@@ -17865,6 +18153,7 @@
     "phoneNumber": "(829) 584-3990",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2897842027
     },
@@ -17927,6 +18216,7 @@
     "phoneNumber": "(980) 488-3431",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6483835178
     },
@@ -17989,6 +18279,7 @@
     "phoneNumber": "(854) 550-2934",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8755736894
     },
@@ -18051,6 +18342,7 @@
     "phoneNumber": "(986) 460-2226",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4741975604
     },
@@ -18113,6 +18405,7 @@
     "phoneNumber": "(972) 437-3291",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8207884041
     },
@@ -18175,6 +18468,7 @@
     "phoneNumber": "(985) 401-2407",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1280686565
     },
@@ -18237,6 +18531,7 @@
     "phoneNumber": "(947) 530-3872",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2616640467
     },
@@ -18299,6 +18594,7 @@
     "phoneNumber": "(940) 557-3102",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3044836821
     },
@@ -18361,6 +18657,7 @@
     "phoneNumber": "(892) 556-2510",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5919164456
     },
@@ -18423,6 +18720,7 @@
     "phoneNumber": "(854) 427-3942",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8088190052
     },
@@ -18485,6 +18783,7 @@
     "phoneNumber": "(919) 595-3246",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5374463358
     },
@@ -18547,6 +18846,7 @@
     "phoneNumber": "(992) 568-2421",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9301999776
     },
@@ -18609,6 +18909,7 @@
     "phoneNumber": "(835) 447-3830",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7473100540
     },
@@ -18671,6 +18972,7 @@
     "phoneNumber": "(921) 409-3894",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3546194617
     },
@@ -18733,6 +19035,7 @@
     "phoneNumber": "(833) 476-3465",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5888119913
     },
@@ -18795,6 +19098,7 @@
     "phoneNumber": "(889) 470-2236",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4213824552
     },
@@ -18857,6 +19161,7 @@
     "phoneNumber": "(906) 502-2120",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6933051110
     },
@@ -18919,6 +19224,7 @@
     "phoneNumber": "(996) 461-2826",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2144381602
     },
@@ -18981,6 +19287,7 @@
     "phoneNumber": "(803) 455-3974",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8295712324
     },
@@ -19043,6 +19350,7 @@
     "phoneNumber": "(966) 449-2475",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 5275766629
     },
@@ -19105,6 +19413,7 @@
     "phoneNumber": "(921) 549-2185",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9017728345
     },
@@ -19167,6 +19476,7 @@
     "phoneNumber": "(936) 437-3210",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3340253257
     },
@@ -19229,6 +19539,7 @@
     "phoneNumber": "(833) 495-3813",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1597513238
     },
@@ -19291,6 +19602,7 @@
     "phoneNumber": "(977) 538-2948",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5218612298
     },
@@ -19353,6 +19665,7 @@
     "phoneNumber": "(991) 471-2255",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7722586214
     },
@@ -19415,6 +19728,7 @@
     "phoneNumber": "(913) 511-2537",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5518684193
     },
@@ -19477,6 +19791,7 @@
     "phoneNumber": "(865) 457-2182",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1647580255
     },
@@ -19539,6 +19854,7 @@
     "phoneNumber": "(837) 548-3467",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5846568812
     },
@@ -19601,6 +19917,7 @@
     "phoneNumber": "(917) 483-3563",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1498081198
     },
@@ -19663,6 +19980,7 @@
     "phoneNumber": "(986) 445-3233",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4292758665
     },
@@ -19725,6 +20043,7 @@
     "phoneNumber": "(852) 592-3327",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4416816617
     },
@@ -19787,6 +20106,7 @@
     "phoneNumber": "(858) 591-3337",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6804256158
     },
@@ -19849,6 +20169,7 @@
     "phoneNumber": "(958) 412-2353",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8794997987
     },
@@ -19911,6 +20232,7 @@
     "phoneNumber": "(870) 540-3392",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3231763799
     },
@@ -19973,6 +20295,7 @@
     "phoneNumber": "(974) 421-3563",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1149173098
     },
@@ -20035,6 +20358,7 @@
     "phoneNumber": "(975) 433-3482",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2297560568
     },
@@ -20097,6 +20421,7 @@
     "phoneNumber": "(875) 463-3330",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7942351350
     },
@@ -20159,6 +20484,7 @@
     "phoneNumber": "(977) 520-2002",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1144292380
     },
@@ -20221,6 +20547,7 @@
     "phoneNumber": "(976) 537-2825",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9323984127
     },
@@ -20283,6 +20610,7 @@
     "phoneNumber": "(914) 442-3875",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9053995795
     },
@@ -20345,6 +20673,7 @@
     "phoneNumber": "(801) 550-2955",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9515122514
     },
@@ -20407,6 +20736,7 @@
     "phoneNumber": "(803) 566-2214",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7657029930
     },
@@ -20469,6 +20799,7 @@
     "phoneNumber": "(956) 420-3990",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7017732530
     },
@@ -20531,6 +20862,7 @@
     "phoneNumber": "(848) 590-2720",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9174323258
     },
@@ -20593,6 +20925,7 @@
     "phoneNumber": "(857) 478-3116",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9015447904
     },
@@ -20655,6 +20988,7 @@
     "phoneNumber": "(903) 448-3107",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4928584222
     },
@@ -20717,6 +21051,7 @@
     "phoneNumber": "(818) 572-3590",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1867960254
     },
@@ -20779,6 +21114,7 @@
     "phoneNumber": "(925) 443-3945",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9617910047
     },
@@ -20841,6 +21177,7 @@
     "phoneNumber": "(824) 493-2962",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9193889821
     },
@@ -20903,6 +21240,7 @@
     "phoneNumber": "(816) 455-3724",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2701251352
     },
@@ -20965,6 +21303,7 @@
     "phoneNumber": "(811) 584-3967",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9313421377
     },
@@ -21027,6 +21366,7 @@
     "phoneNumber": "(926) 437-3658",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5347397108
     },
@@ -21089,6 +21429,7 @@
     "phoneNumber": "(815) 519-2390",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1682875318
     },
@@ -21151,6 +21492,7 @@
     "phoneNumber": "(918) 458-3530",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1912274689
     },
@@ -21213,6 +21555,7 @@
     "phoneNumber": "(956) 476-2512",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7952643762
     },
@@ -21275,6 +21618,7 @@
     "phoneNumber": "(930) 449-3990",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6193104996
     },
@@ -21337,6 +21681,7 @@
     "phoneNumber": "(949) 404-2419",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7335234745
     },
@@ -21399,6 +21744,7 @@
     "phoneNumber": "(990) 523-2937",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7337436695
     },
@@ -21461,6 +21807,7 @@
     "phoneNumber": "(844) 536-3680",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5907431836
     },
@@ -21523,6 +21870,7 @@
     "phoneNumber": "(931) 469-3038",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7223355316
     },
@@ -21585,6 +21933,7 @@
     "phoneNumber": "(959) 546-2687",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6472253096
     },
@@ -21647,6 +21996,7 @@
     "phoneNumber": "(975) 459-2555",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7188666958
     },
@@ -21709,6 +22059,7 @@
     "phoneNumber": "(886) 458-2151",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6202150871
     },
@@ -21771,6 +22122,7 @@
     "phoneNumber": "(988) 525-2875",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5128150204
     },
@@ -21833,6 +22185,7 @@
     "phoneNumber": "(827) 538-3850",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5014102664
     },
@@ -21895,6 +22248,7 @@
     "phoneNumber": "(803) 402-3207",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2700184316
     },
@@ -21957,6 +22311,7 @@
     "phoneNumber": "(921) 568-3361",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1140636786
     },
@@ -22019,6 +22374,7 @@
     "phoneNumber": "(823) 597-3314",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7844739573
     },
@@ -22081,6 +22437,7 @@
     "phoneNumber": "(853) 454-2290",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 4924141026
     },
@@ -22143,6 +22500,7 @@
     "phoneNumber": "(944) 558-2229",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8213632388
     },
@@ -22205,6 +22563,7 @@
     "phoneNumber": "(819) 443-2016",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5365918758
     },
@@ -22267,6 +22626,7 @@
     "phoneNumber": "(990) 413-3538",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5140768586
     },
@@ -22329,6 +22689,7 @@
     "phoneNumber": "(898) 529-3992",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7771623860
     },
@@ -22391,6 +22752,7 @@
     "phoneNumber": "(844) 496-2428",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4926110468
     },
@@ -22453,6 +22815,7 @@
     "phoneNumber": "(959) 494-3615",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3338763051
     },
@@ -22515,6 +22878,7 @@
     "phoneNumber": "(911) 440-2350",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3903051720
     },
@@ -22577,6 +22941,7 @@
     "phoneNumber": "(802) 531-2814",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6965788466
     },
@@ -22639,6 +23004,7 @@
     "phoneNumber": "(934) 495-3319",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2902522873
     },
@@ -22701,6 +23067,7 @@
     "phoneNumber": "(814) 550-2590",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2086327701
     },
@@ -22763,6 +23130,7 @@
     "phoneNumber": "(819) 515-3207",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7975858029
     },
@@ -22825,6 +23193,7 @@
     "phoneNumber": "(943) 535-3212",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2925170820
     },
@@ -22887,6 +23256,7 @@
     "phoneNumber": "(858) 571-2347",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1517171088
     },
@@ -22949,6 +23319,7 @@
     "phoneNumber": "(913) 566-3233",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5321249631
     },
@@ -23011,6 +23382,7 @@
     "phoneNumber": "(859) 418-2488",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1839152355
     },
@@ -23073,6 +23445,7 @@
     "phoneNumber": "(883) 409-2088",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6472644816
     },
@@ -23135,6 +23508,7 @@
     "phoneNumber": "(953) 523-2242",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2844662385
     },
@@ -23197,6 +23571,7 @@
     "phoneNumber": "(922) 507-2676",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4584450774
     },
@@ -23259,6 +23634,7 @@
     "phoneNumber": "(801) 442-3108",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1899899265
     },
@@ -23321,6 +23697,7 @@
     "phoneNumber": "(834) 557-2815",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6039884344
     },
@@ -23383,6 +23760,7 @@
     "phoneNumber": "(838) 465-2548",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2025674662
     },
@@ -23445,6 +23823,7 @@
     "phoneNumber": "(906) 515-3030",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6660700161
     },
@@ -23507,6 +23886,7 @@
     "phoneNumber": "(930) 469-2408",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7680170619
     },
@@ -23569,6 +23949,7 @@
     "phoneNumber": "(973) 444-2938",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 7397682675
     },
@@ -23631,6 +24012,7 @@
     "phoneNumber": "(913) 444-2147",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5460663304
     },
@@ -23693,6 +24075,7 @@
     "phoneNumber": "(990) 567-3099",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 9026133663
     },
@@ -23755,6 +24138,7 @@
     "phoneNumber": "(879) 506-2700",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 1204742985
     },
@@ -23817,6 +24201,7 @@
     "phoneNumber": "(851) 495-2647",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8167661376
     },
@@ -23879,6 +24264,7 @@
     "phoneNumber": "(943) 522-3596",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4187200022
     },
@@ -23941,6 +24327,7 @@
     "phoneNumber": "(940) 591-3993",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6107669513
     },
@@ -24003,6 +24390,7 @@
     "phoneNumber": "(922) 417-3787",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6284687506
     },
@@ -24065,6 +24453,7 @@
     "phoneNumber": "(841) 510-3265",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8784830021
     },
@@ -24127,6 +24516,7 @@
     "phoneNumber": "(959) 489-2745",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6971227434
     },
@@ -24189,6 +24579,7 @@
     "phoneNumber": "(865) 473-3332",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7408784665
     },
@@ -24251,6 +24642,7 @@
     "phoneNumber": "(964) 587-3391",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6087308826
     },
@@ -24313,6 +24705,7 @@
     "phoneNumber": "(898) 432-2548",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2591719422
     },
@@ -24375,6 +24768,7 @@
     "phoneNumber": "(922) 532-3327",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6842498488
     },
@@ -24437,6 +24831,7 @@
     "phoneNumber": "(847) 597-3684",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3014413702
     },
@@ -24499,6 +24894,7 @@
     "phoneNumber": "(975) 546-2304",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8632740227
     },
@@ -24561,6 +24957,7 @@
     "phoneNumber": "(865) 449-2496",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6829187074
     },
@@ -24623,6 +25020,7 @@
     "phoneNumber": "(809) 591-2745",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7132625845
     },
@@ -24685,6 +25083,7 @@
     "phoneNumber": "(987) 536-3158",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5868190185
     },
@@ -24747,6 +25146,7 @@
     "phoneNumber": "(870) 586-2760",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2085119684
     },
@@ -24809,6 +25209,7 @@
     "phoneNumber": "(989) 425-3967",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 5953011132
     },
@@ -24871,6 +25272,7 @@
     "phoneNumber": "(967) 496-2381",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9199711506
     },
@@ -24933,6 +25335,7 @@
     "phoneNumber": "(921) 455-3588",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9618958023
     },
@@ -24995,6 +25398,7 @@
     "phoneNumber": "(850) 536-2517",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2282729833
     },
@@ -25057,6 +25461,7 @@
     "phoneNumber": "(852) 464-3643",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6507347500
     },
@@ -25119,6 +25524,7 @@
     "phoneNumber": "(850) 486-2597",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2759103727
     },
@@ -25181,6 +25587,7 @@
     "phoneNumber": "(881) 424-2480",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5276544828
     },
@@ -25243,6 +25650,7 @@
     "phoneNumber": "(884) 504-3501",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 9230339497
     },
@@ -25305,6 +25713,7 @@
     "phoneNumber": "(978) 546-2362",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2779914455
     },
@@ -25367,6 +25776,7 @@
     "phoneNumber": "(945) 484-3689",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4049360430
     },
@@ -25429,6 +25839,7 @@
     "phoneNumber": "(853) 525-2414",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4071608475
     },
@@ -25491,6 +25902,7 @@
     "phoneNumber": "(927) 522-2181",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7109740582
     },
@@ -25553,6 +25965,7 @@
     "phoneNumber": "(858) 421-3966",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2310410328
     },
@@ -25615,6 +26028,7 @@
     "phoneNumber": "(867) 492-2686",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2499466347
     },
@@ -25677,6 +26091,7 @@
     "phoneNumber": "(894) 521-3060",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5481323439
     },
@@ -25739,6 +26154,7 @@
     "phoneNumber": "(803) 519-2538",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4919966292
     },
@@ -25801,6 +26217,7 @@
     "phoneNumber": "(840) 580-3200",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 6975667335
     },
@@ -25863,6 +26280,7 @@
     "phoneNumber": "(987) 532-3854",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6007052794
     },
@@ -25925,6 +26343,7 @@
     "phoneNumber": "(855) 443-2319",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7131271911
     },
@@ -25987,6 +26406,7 @@
     "phoneNumber": "(944) 520-2996",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5106897981
     },
@@ -26049,6 +26469,7 @@
     "phoneNumber": "(990) 486-3220",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9708052197
     },
@@ -26111,6 +26532,7 @@
     "phoneNumber": "(838) 484-3785",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1282808560
     },
@@ -26173,6 +26595,7 @@
     "phoneNumber": "(865) 409-3665",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4873410159
     },
@@ -26235,6 +26658,7 @@
     "phoneNumber": "(866) 560-2549",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9300672917
     },
@@ -26297,6 +26721,7 @@
     "phoneNumber": "(891) 403-2411",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2381112381
     },
@@ -26359,6 +26784,7 @@
     "phoneNumber": "(960) 454-3561",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3407742026
     },
@@ -26421,6 +26847,7 @@
     "phoneNumber": "(800) 544-2613",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 9713697831
     },
@@ -26483,6 +26910,7 @@
     "phoneNumber": "(828) 572-3609",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 8530689408
     },
@@ -26545,6 +26973,7 @@
     "phoneNumber": "(818) 530-3258",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8300170985
     },
@@ -26607,6 +27036,7 @@
     "phoneNumber": "(961) 429-3056",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3118983676
     },
@@ -26669,6 +27099,7 @@
     "phoneNumber": "(964) 477-3014",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7585927079
     },
@@ -26731,6 +27162,7 @@
     "phoneNumber": "(970) 437-2866",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3374820658
     },
@@ -26793,6 +27225,7 @@
     "phoneNumber": "(835) 444-3506",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6985468773
     },
@@ -26855,6 +27288,7 @@
     "phoneNumber": "(979) 575-2046",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6125261631
     },
@@ -26917,6 +27351,7 @@
     "phoneNumber": "(815) 482-2568",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4105888177
     },
@@ -26979,6 +27414,7 @@
     "phoneNumber": "(974) 508-3360",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8868600393
     },
@@ -27041,6 +27477,7 @@
     "phoneNumber": "(863) 446-2117",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 3199299597
     },
@@ -27103,6 +27540,7 @@
     "phoneNumber": "(967) 564-2624",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 7494875114
     },
@@ -27165,6 +27603,7 @@
     "phoneNumber": "(957) 462-3750",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3847278095
     },
@@ -27227,6 +27666,7 @@
     "phoneNumber": "(951) 426-2169",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7580535017
     },
@@ -27289,6 +27729,7 @@
     "phoneNumber": "(973) 532-3913",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8017995828
     },
@@ -27351,6 +27792,7 @@
     "phoneNumber": "(837) 559-3810",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9915771045
     },
@@ -27413,6 +27855,7 @@
     "phoneNumber": "(825) 438-2684",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4686133101
     },
@@ -27475,6 +27918,7 @@
     "phoneNumber": "(986) 500-3929",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 2237351124
     },
@@ -27537,6 +27981,7 @@
     "phoneNumber": "(936) 532-2115",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5567899949
     },
@@ -27599,6 +28044,7 @@
     "phoneNumber": "(861) 577-3309",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6424307356
     },
@@ -27661,6 +28107,7 @@
     "phoneNumber": "(913) 408-3074",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8159151099
     },
@@ -27723,6 +28170,7 @@
     "phoneNumber": "(946) 558-2997",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 8458008533
     },
@@ -27785,6 +28233,7 @@
     "phoneNumber": "(957) 551-2743",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7339769910
     },
@@ -27847,6 +28296,7 @@
     "phoneNumber": "(874) 400-2636",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8587235341
     },
@@ -27909,6 +28359,7 @@
     "phoneNumber": "(864) 595-2756",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5554830582
     },
@@ -27971,6 +28422,7 @@
     "phoneNumber": "(857) 441-3599",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3225873207
     },
@@ -28033,6 +28485,7 @@
     "phoneNumber": "(893) 501-3995",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5295127828
     },
@@ -28095,6 +28548,7 @@
     "phoneNumber": "(921) 596-2802",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 3167569742
     },
@@ -28157,6 +28611,7 @@
     "phoneNumber": "(961) 578-3704",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 7157978728
     },
@@ -28219,6 +28674,7 @@
     "phoneNumber": "(955) 583-3071",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 1533690475
     },
@@ -28281,6 +28737,7 @@
     "phoneNumber": "(871) 572-3923",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 4713226117
     },
@@ -28343,6 +28800,7 @@
     "phoneNumber": "(929) 436-2115",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 9565520916
     },
@@ -28405,6 +28863,7 @@
     "phoneNumber": "(833) 435-2252",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4516683426
     },
@@ -28467,6 +28926,7 @@
     "phoneNumber": "(952) 544-3194",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 3841726075
     },
@@ -28529,6 +28989,7 @@
     "phoneNumber": "(961) 510-2048",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 2657905146
     },
@@ -28591,6 +29052,7 @@
     "phoneNumber": "(824) 460-2851",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5978438188
     },
@@ -28653,6 +29115,7 @@
     "phoneNumber": "(969) 485-2169",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4295515342
     },
@@ -28715,6 +29178,7 @@
     "phoneNumber": "(949) 537-2988",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 2904626552
     },
@@ -28777,6 +29241,7 @@
     "phoneNumber": "(927) 546-3774",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 8468037213
     },
@@ -28839,6 +29304,7 @@
     "phoneNumber": "(971) 483-3314",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 3670376419
     },
@@ -28901,6 +29367,7 @@
     "phoneNumber": "(961) 570-2834",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2593354625
     },
@@ -28963,6 +29430,7 @@
     "phoneNumber": "(815) 457-3890",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3988456845
     },
@@ -29025,6 +29493,7 @@
     "phoneNumber": "(946) 468-2949",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 8660357057
     },
@@ -29087,6 +29556,7 @@
     "phoneNumber": "(875) 558-2310",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 7495607095
     },
@@ -29149,6 +29619,7 @@
     "phoneNumber": "(915) 473-2610",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3669491235
     },
@@ -29211,6 +29682,7 @@
     "phoneNumber": "(924) 558-2995",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1678752403
     },
@@ -29273,6 +29745,7 @@
     "phoneNumber": "(809) 547-3559",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6137187328
     },
@@ -29335,6 +29808,7 @@
     "phoneNumber": "(854) 489-3171",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6501245594
     },
@@ -29397,6 +29871,7 @@
     "phoneNumber": "(948) 560-3667",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 6238648616
     },
@@ -29459,6 +29934,7 @@
     "phoneNumber": "(922) 549-3420",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 5655837961
     },
@@ -29521,6 +29997,7 @@
     "phoneNumber": "(850) 405-2842",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 6272311628
     },
@@ -29583,6 +30060,7 @@
     "phoneNumber": "(949) 493-2647",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2026063658
     },
@@ -29645,6 +30123,7 @@
     "phoneNumber": "(826) 499-2951",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 4107082606
     },
@@ -29707,6 +30186,7 @@
     "phoneNumber": "(921) 442-3163",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 1012912964
     },
@@ -29769,6 +30249,7 @@
     "phoneNumber": "(883) 478-2726",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 5540033731
     },
@@ -29831,6 +30312,7 @@
     "phoneNumber": "(993) 532-3882",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 3147073185
     },
@@ -29893,6 +30375,7 @@
     "phoneNumber": "(876) 482-3467",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 4882377657
     },
@@ -29955,6 +30438,7 @@
     "phoneNumber": "(873) 436-3944",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9662506253
     },
@@ -30017,6 +30501,7 @@
     "phoneNumber": "(823) 545-3647",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 5159987623
     },
@@ -30079,6 +30564,7 @@
     "phoneNumber": "(862) 422-3003",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 4102429602
     },
@@ -30141,6 +30627,7 @@
     "phoneNumber": "(846) 461-3980",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7783510227
     },
@@ -30203,6 +30690,7 @@
     "phoneNumber": "(869) 472-3779",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1015941085
     },
@@ -30265,6 +30753,7 @@
     "phoneNumber": "(951) 503-2002",
     "status": "blacklisted",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 9575258112
     },
@@ -30327,6 +30816,7 @@
     "phoneNumber": "(847) 444-2867",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "GTBank",
       "accountNumber": 1719064808
     },
@@ -30389,6 +30879,7 @@
     "phoneNumber": "(904) 427-2096",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 1692023114
     },
@@ -30451,6 +30942,7 @@
     "phoneNumber": "(845) 524-3084",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 2307536841
     },
@@ -30513,6 +31005,7 @@
     "phoneNumber": "(879) 456-3349",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Zenith Bank",
       "accountNumber": 6689758563
     },
@@ -30575,6 +31068,7 @@
     "phoneNumber": "(928) 565-2968",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 2869688377
     },
@@ -30637,6 +31131,7 @@
     "phoneNumber": "(896) 457-2005",
     "status": "active",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 7882626963
     },
@@ -30699,6 +31194,7 @@
     "phoneNumber": "(912) 410-2571",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 8640422473
     },
@@ -30761,6 +31257,7 @@
     "phoneNumber": "(987) 490-3463",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 5756610337
     },
@@ -30823,6 +31320,7 @@
     "phoneNumber": "(909) 476-2339",
     "status": "inactive",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "UBA",
       "accountNumber": 3805595854
     },
@@ -30885,6 +31383,7 @@
     "phoneNumber": "(939) 452-2164",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "Access Bank",
       "accountNumber": 8182114987
     },
@@ -30947,6 +31446,7 @@
     "phoneNumber": "(884) 424-3643",
     "status": "pending",
     "bankDetails": {
+      "accountBalance": 200000,
       "bankName": "First Bank",
       "accountNumber": 6043859068
     },
