@@ -132,7 +132,22 @@
 }
 
 .logout-button {
-    @apply sidebar-item;
+position: relative;
+    border-left-width: 3px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 25px;
+    color: $side-bar-text;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
     img,
     p {
         opacity: 1;
