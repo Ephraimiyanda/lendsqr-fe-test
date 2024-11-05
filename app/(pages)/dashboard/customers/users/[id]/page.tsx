@@ -212,12 +212,22 @@ export default function UserDetails({
   };
 
   const content = [
-    <div>{UserDetailsTab()}</div>,
-    <div className="user-profile">This is the Documents view</div>,
-    <div className="user-profile">This is the Bank Details view</div>,
-    <div className="user-profile">This is the Loans view</div>,
-    <div className="user-profile">This is the Savings view</div>,
-    <div className="user-profile">This is the App and System view</div>,
+    <div key={"user-details"}>{UserDetailsTab()}</div>,
+    <div key={"document-views"} className="user-profile">
+      This is the Documents view
+    </div>,
+    <div key={"bank-details"} className="user-profile">
+      This is the Bank Details view
+    </div>,
+    <div key={"loans-view"} className="user-profile">
+      This is the Loans view
+    </div>,
+    <div key={"savings-view"} className="user-profile">
+      This is the Savings view
+    </div>,
+    <div key={"app-and-system-view"} className="user-profile">
+      This is the App and System view
+    </div>,
   ];
 
   return (
