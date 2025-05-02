@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { sidebarItems } from "@/app/types/sideBarTypes";
 import { usePathname } from "next/navigation";
-export function SidebarItem({ name, href, icon }: sidebarItems) {
+export function SidebarItem({ name, href, icon, onLinkClick }: sidebarItems) {
   const pathname = usePathname();
 
   const isActive = (href: string) => {
@@ -20,7 +20,11 @@ export function SidebarItem({ name, href, icon }: sidebarItems) {
   };
 
   return (
-    <Link href={href} className={`sidebar-item ${isActive(href) && "active"}`}>
+    <Link
+      href={href}
+      className={`sidebar-item ${isActive(href) && "active"}`}
+      onClick={onLinkClick}
+    >
       <Image
         src={icon}
         alt={name + " " + "icon"}

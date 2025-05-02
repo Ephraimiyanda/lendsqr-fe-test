@@ -1,11 +1,18 @@
 "use client";
 import { sideBarMenu } from "@/app/assets/constants/sidebarMenuData";
 import { SidebarItem } from "./sideBarItem";
-import { usePathname } from "next/navigation";
 import "../sidebar/sidebarStyles.scss";
 import Image from "next/image";
 import { signOut } from "next-auth/react";
-export function Sidebar() {
+import { MouseEventHandler } from "react";
+
+interface menuState {
+  isOpen: boolean | null;
+  onClose: MouseEventHandler<HTMLAnchorElement> | undefined;
+}
+export function Sidebar({ isOpen, onClose }: menuState) {
+  if (!isOpen) return null;
+
   return (
     <aside className=" column-container sidebar gap-x-large overflow-auto h-full ">
       <div className="row-container navbar-end-item align-center gap-large">
@@ -61,6 +68,7 @@ export function Sidebar() {
           icon={"/images/icons/briefcase.svg"}
           name={"Dashboard"}
           href={"/dashboard"}
+          onLinkClick={onClose}
         />
       </div>
       {sideBarMenu.map((section) => (
@@ -72,6 +80,7 @@ export function Sidebar() {
               icon={menu.icon}
               name={menu.name}
               href={menu.href}
+              onLinkClick={onClose}
             />
           ))}
         </div>

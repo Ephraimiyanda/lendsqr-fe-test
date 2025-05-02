@@ -1,9 +1,9 @@
+// userDetails.test.tsx
 import { render, screen, waitFor } from "@testing-library/react";
-import { useSession } from "next-auth/react";
-import UserDetails from "../../../../../pages/users/[id]";
+import "@testing-library/jest-dom";
+import UserDetails from "../../(pages)/dashboard/customers/users/[id]/page"; // Adjust the path based on your project structure
 import { useRouter } from "next/router";
-
-global.fetch = jest.fn();
+import { useSession } from "next-auth/react";
 
 jest.mock("next/navigation", () => ({
   useRouter: jest.fn(),
@@ -13,139 +13,117 @@ jest.mock("next/navigation", () => ({
 jest.mock("next-auth/react", () => ({
   useSession: jest.fn(),
 }));
+//@ts-ignore
+jest.mock("next/image", () => ({ src, alt }) => <img src={src} alt={alt} />);
 
-describe("UserDetails Component", () => {
-  const mockUser = {
-    id: "1",
-    name: "John Doe",
-    phoneNumber: "1234567890",
-    email: "john.doe@example.com",
-    uniqueId: "USER123",
+describe("UserDetails Page", () => {
+  const mockUserDetails = {
+    id: "123",
+    fullName: "John Doe",
+    email: "john@example.com",
+    phoneNumber: "123456789",
+    userTier: 2,
+    bankDetails: {
+      accountBalance: 500000,
+      accountNumber: "123456789",
+      bankName: "Test Bank",
+    },
     userDetails: {
-      fullName: "John Doe",
-      bvn: "12345678901",
+      uniqueId: "U12345",
       gender: "Male",
       maritalStatus: "Single",
-      children: "2",
+      children: 0,
       typeOfResidence: "Apartment",
-      levelOfEducation: "Bachelor’s",
+      levelOfEducation: "Bachelor's",
       employmentStatus: "Employed",
-      sectorOfEmployment: "Technology",
+      sectorOfEmployment: "Tech",
       durationOfEmployment: "5 years",
-      officeEmail: "john.doe@company.com",
-      monthlyIncome: "500,000",
-      loanRepayment: "20,000",
-      socials: [{ name: "LinkedIn", link: "https://linkedin.com/johndoe" }],
+      officeEmail: "john.office@example.com",
+      monthlyIncome: "50000",
+      loanRepayment: "10000",
+      socials: [{ name: "LinkedIn", link: "https://linkedin.com" }],
       guarantors: [
         {
-          fullName: "Jane Smith",
-          phoneNumber: "0987654321",
-          emailAddress: "jane.smith@example.com",
-          relationship: "Friend",
+          fullName: "Jane Doe",
+          phoneNumber: "987654321",
+          emailAddress: "jane@example.com",
+          relationship: "Spouse",
         },
       ],
-      userTier: 2,
-      accountBalance: 100000,
-    },
-    bankDetails: {
-      accountBalance: 100000,
-      accountNumber: "1234567890",
-      bankName: "XYZ Bank",
     },
   };
-
-  const mockRouter = {
+  // test-utils.ts
+  const mockRouter = () => ({
     back: jest.fn(),
-    query: { id: "1" },
-  };
+    push: jest.fn(),
+  });
+
+  const mockSession = (session: any) => ({
+    data: session.isAuthenticated
+      ? { user: { name: "test" }, expires: "fake-date" }
+      : null,
+    status: session.isAuthenticated ? "authenticated" : "unauthenticated",
+  });
 
   beforeEach(() => {
-    useRouter.mockReturnValue(mockRouter);
-    localStorage.clear();
-    fetch.mockClear();
+    (useRouter as jest.Mock).mockReturnValue(mockRouter());
+    (useSession as jest.Mock).mockReturnValue(
+      mockSession({ isAuthenticated: true })
+    );
+    global.fetch = jest.fn(() =>
+      Promise.resolve({
+        json: () => Promise.resolve({ data: mockUserDetails }),
+      })
+    ) as jest.Mock;
   });
 
-  // Positive Scenario: Load data from local storage if present
-  it("loads user data from local storage if available", async () => {
-    localStorage.setItem(`user-${mockUser.id}`, JSON.stringify(mockUser));
-    useSession.mockReturnValue({
-      data: { user: { name: "John" } },
-      status: "authenticated",
-    });
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
 
-    render(<UserDetails params={{ id: "1" }} />);
+  it("renders loading state initially", async () => {
+    render(<UserDetails params={Promise.resolve({ id: "123" })} />);
 
     expect(screen.getByText("Loading...")).toBeInTheDocument();
-
-    await waitFor(() => {
-      expect(screen.getByText("John Doe")).toBeInTheDocument();
-      expect(
-        screen.getByText("Email: john.doe@example.com")
-      ).toBeInTheDocument();
-      expect(screen.getByText("USER123")).toBeInTheDocument();
-    });
   });
 
-  // Positive Scenario: Fetches user data from the API if not in local storage
-  it("fetches user data from API if not in local storage", async () => {
-    useSession.mockReturnValue({
-      data: { user: { name: "John" } },
-      status: "authenticated",
-    });
-    fetch.mockResolvedValueOnce({
-      json: async () => ({ data: mockUser }),
-    });
+  it("renders user details after fetching", async () => {
+    render(<UserDetails params={Promise.resolve({ id: "123" })} />);
 
-    render(<UserDetails params={{ id: "1" }} />);
-
-    expect(screen.getByText("Loading...")).toBeInTheDocument();
-
-    await waitFor(() => {
-      expect(screen.getByText("John Doe")).toBeInTheDocument();
-      expect(
-        screen.getByText("Email: john.doe@example.com")
-      ).toBeInTheDocument();
-    });
+    await waitFor(() =>
+      expect(screen.getByText("John Doe")).toBeInTheDocument()
+    );
+    expect(screen.getByText("123456789")).toBeInTheDocument();
+    expect(screen.getByText("john@example.com")).toBeInTheDocument();
   });
 
-  // Negative Scenario: Displays an error if API request fails
-  it("displays an error message if the API request fails", async () => {
-    useSession.mockReturnValue({
-      data: { user: { name: "John" } },
-      status: "authenticated",
-    });
-    fetch.mockRejectedValueOnce(new Error("API error"));
+  it("displays the User’s Tier with stars", async () => {
+    render(<UserDetails params={Promise.resolve({ id: "123" })} />);
 
-    render(<UserDetails params={{ id: "1" }} />);
-
-    await waitFor(() => {
-      expect(screen.getByText(/An error has occured/i)).toBeInTheDocument();
-    });
+    await waitFor(() =>
+      expect(screen.getByText("User’s Tier")).toBeInTheDocument()
+    );
+    expect(screen.getByTestId("user-tier-stars")).toBeInTheDocument();
   });
 
-  // Negative Scenario: Redirects to login page if user is not authenticated
-  it("redirects to login page if user is not authenticated", () => {
-    const redirect = jest.fn();
-    useSession.mockReturnValue({ data: null, status: "unauthenticated" });
+  it("displays bank details correctly", async () => {
+    render(<UserDetails params={Promise.resolve({ id: "123" })} />);
 
-    render(<UserDetails params={{ id: "1" }} />);
-
-    expect(redirect).toHaveBeenCalledWith("/auth/login");
+    await waitFor(() =>
+      expect(screen.getByText("₦500,000")).toBeInTheDocument()
+    );
+    expect(screen.getByText("123456789/Test Bank")).toBeInTheDocument();
   });
 
-  // Negative Scenario: Handles malformed local storage data gracefully
-  it("handles malformed data in local storage gracefully", async () => {
-    localStorage.setItem(`user-${mockUser.id}`, "{ malformed JSON }");
-    useSession.mockReturnValue({
-      data: { user: { name: "John" } },
-      status: "authenticated",
-    });
+  it("redirects to login page if user is not authenticated", async () => {
+    (useSession as jest.Mock).mockReturnValue(
+      mockSession({ isAuthenticated: false })
+    );
 
-    render(<UserDetails params={{ id: "1" }} />);
+    render(<UserDetails params={Promise.resolve({ id: "123" })} />);
 
     await waitFor(() => {
-      expect(screen.getByText("Loading...")).toBeInTheDocument();
-      expect(fetch).toHaveBeenCalled(); // Fallbacks to fetch if local storage data is invalid
+      expect(mockRouter().push).toHaveBeenCalledWith("/auth/login");
     });
   });
 });

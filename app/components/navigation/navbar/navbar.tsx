@@ -6,10 +6,10 @@ import { useState } from "react";
 import { Sidebar } from "../sidebar/sideBar";
 import "../navbar/navbarStyles.scss";
 export function Navbar() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className="navbar-container">
       <div className="navbar align-center">
         <div className="flex-1">
           <Logo></Logo>
@@ -61,12 +61,12 @@ export function Navbar() {
             <button
               className="navbar-notification-button menu-button"
               onClick={() => {
-                setShowMenu(!showMenu);
+                setIsMenuOpen(!isMenuOpen);
               }}
             >
               <Image
                 src={
-                  showMenu
+                  isMenuOpen
                     ? "/images/icons/close.svg"
                     : "/images/icons/hamburger.svg"
                 }
@@ -78,8 +78,11 @@ export function Navbar() {
           </div>
         </div>
       </div>
-      <div className={`menu ${showMenu ? "open" : "close"}`}>
-        <Sidebar></Sidebar>
+      <div className={`menu ${isMenuOpen ? "open" : "close"}`}>
+        <Sidebar
+          isOpen={isMenuOpen}
+          onClose={() => setIsMenuOpen(false)}
+        ></Sidebar>
       </div>
     </div>
   );

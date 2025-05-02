@@ -10,8 +10,8 @@ export default function DashboardLayout({
     <div className="column-container overflow-hidden screen-container ">
       <Navbar></Navbar>
       <div className="row-container flex-1 overflow-auto">
-        <div className="overflow-auto h-full">
-          <Sidebar></Sidebar>
+        <div className="h-full">
+          <Sidebar isOpen={true} onClose={undefined}></Sidebar>
         </div>
         <div className="shadow w-full flex-1 overflow-auto">{children}</div>
       </div>
