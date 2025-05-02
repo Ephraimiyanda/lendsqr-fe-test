@@ -1,8 +1,8 @@
 # Project Name
+LendSqr assessment test
 
-A brief description of your project goes here. For example:
-
-This is a job assignment project developed using **Next.js**, **TypeScript**, **React**, and **SCSS**. The project aims to [describe the purpose, like "create a user-friendly interface for..." or "demonstrate expertise in..."].
+# Project Description
+This is a job assignment project developed using **Next.js**, **TypeScript**, **React**, and **SCSS**. The project aims to build 4 responsive pages,a Login, Dashboard, User page, User details page. The user pages should pull data from a mock api with 500 records, with the use of local storage or indexedDB to store and retrieve user details on the user details page.
 
 ---
 
@@ -89,6 +89,13 @@ project-root/
 ├── tsconfig.json                # TypeScript configuration
 └── README.md                    # Project README
 ```
+## login to dashboard
+
+```
+email: lendsqradmin@gmail.com
+
+password: lendsqradmin
+```
 
 ## Getting Started
 
@@ -118,13 +125,6 @@ pnpm dev
 bun dev
 ```
 
-## login to dashboard
-
-```
-email: lendsqradmin@gmail.com
-
-password: lendsqradmin
-```
 
 1. **Clone the repository**:
    ```bash
